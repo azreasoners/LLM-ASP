@@ -1,5 +1,5 @@
 # GPT3-R
-This is the repository for the paper "Dual System Model: Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text".
+This is the repository for the paper "Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text" in Findings of ACL 2023.
 
 ## Installation
 ```
