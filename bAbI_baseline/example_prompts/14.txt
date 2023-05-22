@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Example:
+Mary journeyed to the bedroom yesterday.
+Julie journeyed to the park yesterday.
+Fred travelled to the park yesterday.
+This morning Fred journeyed to the cinema.
+This afternoon Fred went back to the office.
+Julie went back to the office this morning.
+This afternoon Julie journeyed to the kitchen.
+This morning Mary journeyed to the cinema.
+Yesterday Bill journeyed to the cinema.
+This evening Fred moved to the cinema.
+This evening Mary went to the kitchen.
+Mary went to the office this afternoon.
+Where was Mary before the kitchen?
+Answer: office
+
+Example:
+Yesterday Mary went to the park.
+Fred went back to the school yesterday.
+Julie moved to the cinema yesterday.
+This morning Mary travelled to the office.
+Where was Mary before the office?
+Answer: park
+
+Example:
+Mary moved to the park this morning.
+Fred journeyed to the cinema yesterday.
+Yesterday Julie travelled to the park.
+Yesterday Mary travelled to the office.
+Mary moved to the office this afternoon.
+This morning Fred went to the kitchen.
+Julie went to the bedroom this morning.
+This afternoon Fred went to the cinema.
+This afternoon Julie journeyed to the school.
+Yesterday Bill went to the park.
+Where was Fred before the cinema?
+Answer: kitchen
+
+Example:
+Mary travelled to the bedroom this morning.
+Mary journeyed to the school yesterday.
+Where was Mary before the bedroom?
+Answer: school
+
+Example:
+Bill journeyed to the kitchen this morning.
+Fred went back to the kitchen this morning.
+Yesterday Fred moved to the cinema.
+Bill journeyed to the bedroom yesterday.
+Where was Fred before the kitchen?
+Answer: cinema
+
+Example:
+Bill went back to the cinema yesterday.
+Julie went to the school this morning.
+Fred went to the park yesterday.
+Yesterday Julie went to the office.
+Where was Julie before the school?
+Answer: office
+
+Example:

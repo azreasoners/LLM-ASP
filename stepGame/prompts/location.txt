@@ -1,0 +1,42 @@
+Please parse each sentence into a fact. If the sentence is describing clock-wise information, then 12 denotes top, 1 and 2 denote top_right, 3 denotes right, 4 and 5 denote down_right, 6 denotes down, 7 and 8 denote down_left, 9 denote left, 10 and 11 denote top_left. If the sentence is describing cardinal directions, then north denotes top, east denotes right, south denotes down, and west denotes left. If the sentence is a question, the fact starts with query. Otherwise, the fact starts with one of top, down, left, right, top_left, top_right, down_left, and down_right. 
+
+Sentence: What is the relation of the agent X to the agent K?
+Semantic Parse: query("X", "K").
+
+Sentence: H is positioned in the front right corner of M.
+Semantic Parse: top_right("H", "M").
+
+Sentence: F is on the left side of and below Q.
+Semantic Parse: down_left("F", "Q").
+
+Sentence: Y and I are parallel, and Y is on top of I.
+Semantic Parse: top("Y", "I").
+
+Sentence: V is over there with T above.
+Semantic Parse: top("T", "V").
+
+Sentence: V is slightly off center to the top left and G is slightly off center to the bottom right.
+Semantic Parse: top_left("V", "G").
+
+Sentence: The objects S and A are over there. The object S is lower and slightly to the left of the object A.
+Semantic Parse: down_left("S", "A").
+
+Sentence: D is diagonally below Z to the right at a 45 degree angle.
+Semantic Parse: down_right("D", "Z").
+
+Sentence: V is at A’s 9 o'clock.
+Semantic Parse: left("V", "A").
+
+Sentence: J is at O's 6 o'clock.
+Semantic Parse: down("J", "O").
+
+Sentence: H is below J at 4 o'clock.
+Semantic Parse: down_right("H", "J").
+
+Sentence: O is there and C is at the 5 position of a clock face.
+Semantic Parse: down_right("C", "O").
+
+Sentence: If H is the center of a clock face, B is located between 10 and 11.
+Semantic Parse: top_left("B", "H").
+
+Sentence: 

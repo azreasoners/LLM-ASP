@@ -1,0 +1,56 @@
+Please read each example story and answer the question that follows.
+Example:
+The office is east of the bathroom.
+The garden is east of the hallway.
+The hallway is north of the bathroom.
+The bathroom is east of the bedroom.
+The kitchen is west of the hallway.
+How do you go from the bedroom to the hallway?
+Answer: e,n
+
+Example:
+The bedroom is north of the hallway.
+The garden is west of the kitchen.
+The bathroom is south of the kitchen.
+The office is north of the bedroom.
+The hallway is east of the kitchen.
+How do you go from the bedroom to the kitchen?
+Answer: s,w
+
+Example:
+The office is south of the kitchen.
+The bedroom is east of the kitchen.
+The garden is east of the bathroom.
+The garden is north of the hallway.
+The kitchen is east of the garden.
+How do you go from the kitchen to the bathroom?
+Answer: w,w
+
+Example:
+The hallway is north of the office.
+The garden is north of the kitchen.
+The office is west of the garden.
+The bedroom is west of the office.
+The bathroom is north of the garden.
+How do you go from the bathroom to the office?
+Answer: s,w
+
+Example:
+The hallway is north of the garden.
+The bedroom is west of the office.
+The bathroom is north of the office.
+The office is west of the kitchen.
+The kitchen is south of the garden.
+How do you go from the office to the garden?
+Answer: e,n
+
+Example:
+The garden is east of the bedroom.
+The office is north of the bathroom.
+The kitchen is west of the hallway.
+The garden is west of the office.
+The garden is north of the hallway.
+How do you go from the office to the hallway?
+Answer: w,s
+
+Example:

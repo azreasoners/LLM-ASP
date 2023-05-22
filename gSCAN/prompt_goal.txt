@@ -1,0 +1,24 @@
+Please parse each sequence of words into facts. 
+
+Sequence: pull a yellow small circle
+Semantic Parse: query(pull). queryDesc(yellow). queryDesc(small). queryDesc(circle).
+
+Sequence: push a big square
+Semantic Parse: query(push). queryDesc(big). queryDesc(square).
+
+Sequence: push a green small square cautiously
+Semantic Parse: query(push). queryDesc(green). queryDesc(small). queryDesc(square). while(cautiously).
+
+Sequence: pull a circle hesitantly
+Semantic Parse: query(pull). queryDesc(circle). while(hesitantly).
+
+Sequence: walk to a yellow big cylinder while spinning
+Semantic Parse: query(walk). queryDesc(yellow). queryDesc(big). queryDesc(cylinder). while(spinning).
+
+Sequence: push a big square while zigzagging
+Semantic Parse: query(push). queryDesc(big). queryDesc(square). while(zigzagging).
+
+Sequence: push a cylinder hesitantly
+Semantic Parse: query(push). queryDesc(cylinder). while(hesitantly).
+
+Sequence: 

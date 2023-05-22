@@ -1,0 +1,66 @@
+Please read each example story and answer the question that follows.
+Example:
+Daniel travelled to the bathroom.
+Then he went back to the bedroom.
+John journeyed to the office.
+Then he travelled to the bathroom.
+Daniel journeyed to the kitchen.
+Following that he went to the bedroom.
+Where is Daniel?
+Answer: bedroom
+
+Example:
+Mary travelled to the garden.
+Following that she went back to the kitchen.
+John journeyed to the bathroom.
+Afterwards he moved to the garden.
+Sandra went back to the hallway.
+Following that she went to the bathroom.
+Sandra went to the kitchen.
+Afterwards she went to the hallway.
+Where is John?
+Answer: garden
+
+Example:
+Daniel moved to the office.
+Following that he journeyed to the hallway.
+John travelled to the office.
+Then he went back to the kitchen.
+Sandra went to the office.
+Following that she went to the hallway.
+Daniel travelled to the kitchen.
+Afterwards he moved to the office.
+Sandra journeyed to the office.
+Afterwards she moved to the hallway.
+Where is Daniel?
+Answer: office
+
+Example:
+Sandra went back to the hallway.
+After that she travelled to the bathroom.
+Where is Sandra?
+Answer: bathroom
+
+Example:
+Mary travelled to the bedroom.
+Then she went back to the bathroom.
+Mary travelled to the hallway.
+Following that she went to the garden.
+Sandra went to the garden.
+After that she went to the kitchen.
+Mary journeyed to the kitchen.
+After that she moved to the bedroom.
+Mary moved to the office.
+Afterwards she journeyed to the garden.
+Where is Mary?
+Answer: garden
+
+Example:
+Daniel travelled to the bathroom.
+Then he went back to the bedroom.
+John journeyed to the office.
+Then he travelled to the bathroom.
+Where is John?
+Answer: bathroom
+
+Example:

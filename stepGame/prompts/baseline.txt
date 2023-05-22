@@ -1,0 +1,74 @@
+Given a story about spatial relations among objects, answer the relation between two queried objects. Possible relations are: overlap, above, below, left, right, upper-left, upper-right, lower-left, and lower-right. If a sentence in the story is describing clock-wise information, then 12 denotes above, 1 and 2 denote upper-right, 3 denotes right, 4 and 5 denote lower-right, 6 denotes below, 7 and 8 denote lower-left, 9 denote left, 10 and 11 denote upper-left. If the sentence is describing cardinal directions, then north denotes above, east denotes right, south denotes below, and west denotes left.
+
+Story:
+If H is the center of a clock face, X is located between 4 and 5.
+V is directly north east of D.
+H and E are next to each other with H on the left and E on the right.
+What is the relation of the agent H to the agent E?
+Answer: left
+
+Story:
+I and P are parallel, and I on the right of P.
+K is above I and to the right of I.
+B and P are parallel, and B is to the right of P.
+P is below J with a small gap between them.
+T is below A at 7 o'clock.
+What is the relation of the agent I to the agent B?
+Answer: overlap
+
+Story:
+Z is below S with a small gap between them.
+The object M is positioned directly below the object J.
+A is on the left side of and below M.
+Y presents upper right to N.
+B is positioned down and to the left of M.
+N is over there and C is on the right.
+W and A are parallel, and W on the left of A.
+S and D are both there with the object S is to the right of object D.
+W is at the bottom of D.
+Z is at W’s 9 o'clock.
+What is the relation of the agent A to the agent M?
+Answer: lower-left
+
+Story:
+H and Y are in a horizontal line with H on the left.
+V is at the 6 o'clock position relative to X.
+The object U is positioned below and to the right of the object W.
+R is diagonally left and below D.
+Z presents below I.
+Z is diagonally above P to the right at a 45 degree.
+Object P is above object R and to the left of it, too.
+I is placed on the top of V.
+N is positioned up and to the right of D.
+X is at Z's 6 o'clock.
+Y is over there and V is at the bottom of it.
+What is the relation of the agent N to the agent X?
+Answer: upper-right
+
+Story:
+H and K are side by side with K at the bottom and H on the top.
+P is below K with a small gap between them.
+U is there and Z is at the 10 position of a clock face.
+Object A is above object M and to the right of it, too.
+D is to the right of H horizontally.
+P and C are parallel, and P is to the right of C.
+G and C are vertical and G is above C.
+Q and E are next to each other with Q on the left and E on the right.
+The object O is positioned below and to the right of the object J.
+E is above S at 2 o'clock.
+F and J are both there with the object F is to the right of object J.
+Z is over there and N is on the left.
+Y is diagonally left and below L.
+If U is the center of a clock face, G is located between 10 and 11.
+F is directly above W.
+P is directly north west of V.
+S is there and L is at the 10 position of a clock face.
+Q is positioned below D.
+N is to the bottom left of D.
+If A is the center of a clock face, Q is located between 4 and 5.
+What is the relation of the agent E to the agent Z?
+Answer: right
+
+Story:
+[INPUT]
+Answer:

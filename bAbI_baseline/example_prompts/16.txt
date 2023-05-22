@@ -1,0 +1,80 @@
+Please read each example story and answer the question that follows.
+Example:
+Julius is a frog.
+Julius is gray.
+Lily is a swan.
+Brian is a lion.
+Bernhard is a swan.
+Brian is white.
+Greg is a rhino.
+Greg is gray.
+Lily is gray.
+What color is Bernhard?
+Answer: gray
+
+Example:
+Bernhard is a lion.
+Brian is a rhino.
+Brian is gray.
+Greg is a swan.
+Lily is a frog.
+Julius is a frog.
+Julius is gray.
+Greg is white.
+Bernhard is white.
+What color is Lily?
+Answer: gray
+
+Example:
+Lily is a lion.
+Brian is a frog.
+Julius is a frog.
+Julius is yellow.
+Brian is yellow.
+Lily is green.
+Bernhard is a frog.
+Bernhard is gray.
+Greg is a lion.
+What color is Greg?
+Answer: green
+
+Example:
+Bernhard is a rhino.
+Brian is a frog.
+Julius is a rhino.
+Brian is gray.
+Greg is a frog.
+Julius is white.
+Greg is gray.
+Lily is a swan.
+Lily is white.
+What color is Bernhard?
+Answer: white
+
+Example:
+Brian is a rhino.
+Julius is a lion.
+Bernhard is a lion.
+Greg is a swan.
+Brian is gray.
+Greg is white.
+Lily is a rhino.
+Bernhard is yellow.
+Lily is gray.
+What color is Julius?
+Answer: yellow
+
+Example:
+Bernhard is a lion.
+Julius is a lion.
+Lily is a lion.
+Bernhard is green.
+Lily is green.
+Brian is a lion.
+Greg is a swan.
+Greg is gray.
+Julius is yellow.
+What color is Brian?
+Answer: green
+
+Example:

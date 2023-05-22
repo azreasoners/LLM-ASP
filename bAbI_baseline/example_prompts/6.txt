@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Example:
+Sandra journeyed to the garden.
+Sandra went back to the bedroom.
+Daniel took the apple there.
+Sandra travelled to the office.
+Is Sandra in the office?
+Answer: yes
+
+Example:
+Sandra journeyed to the garden.
+Sandra went back to the bedroom.
+Daniel took the apple there.
+Sandra travelled to the office.
+John went to the hallway.
+Sandra moved to the kitchen.
+Daniel journeyed to the bathroom.
+Daniel went back to the bedroom.
+Is Sandra in the office?
+Answer: no
+
+Example:
+John went back to the hallway.
+Daniel travelled to the hallway.
+Is Daniel in the bathroom?
+Answer: no
+
+Example:
+Sandra went back to the hallway.
+Sandra moved to the office.
+Mary moved to the hallway.
+Daniel journeyed to the garden.
+Mary journeyed to the office.
+Mary went back to the hallway.
+John grabbed the apple there.
+Mary moved to the garden.
+Is Mary in the hallway?
+Answer: no
+
+Example:
+Sandra moved to the office.
+John went back to the garden.
+Sandra went to the hallway.
+Sandra went to the kitchen.
+Mary went to the office.
+Sandra got the apple there.
+Mary journeyed to the hallway.
+Mary journeyed to the bedroom.
+Mary journeyed to the garden.
+Mary went to the kitchen.
+Is Mary in the kitchen?
+Answer: yes
+
+Example:
+Daniel got the apple there.
+John picked up the football there.
+Daniel left the apple.
+Daniel moved to the kitchen.
+Is Daniel in the bedroom?
+Answer: no
+
+Example:

@@ -1,0 +1,223 @@
+%********************
+* common interface
+* check: if location(unknown) is needed
+*********************%
+
+% what happened in the given story
+happens(action(A, pickup, I), T) :- pickup(A, I, T).
+happens(action(A, drop, I), T) :- drop(A, I, T).
+happens(action(A1, give, A2, I), T) :- give(A1, A2, I, T).
+happens(action(A, goto, L), T) :- go(A, L, T).
+
+%********************
+* basic atoms
+*********************%
+
+% default maximum timepoint in planning tasks
+maxtime(10).
+
+direction(east; west; north; south).
+% one may reason without knowing the location (e.g., pickup in bAbI task5)
+location(unknown).
+
+agent(A) :- happens(action(A, _, _), _).
+agent(A) :- happens(action(A, _, _, _), _).
+agent(A) :- happens(action(_, give, A, _), _).
+item(I) :- happens(action(_, pickup, I), _).
+item(I) :- happens(action(_, drop, I), _).
+item(I) :- happens(action(_, give, _, I), _).
+location(L) :- happens(action(_, goto, L), _), not direction(L).
+
+%********************
+* atoms in DEC_AXIOMS
+*********************%
+
+% event/1
+event(action(A, pickup, I)) :- agent(A), item(I).
+event(action(A, drop, I)) :- agent(A), item(I).
+event(action(A1, give, A2, I)) :- agent(A1), agent(A2), item(I), A1 != A2.
+event(action(A, goto, L)) :- agent(A), location(L).
+event(action(A, goto, D)) :- agent(A), direction(D).
+
+% timepoint/1
+timepoint(T) :- happens(_, T). % the timepoint in story
+timepoint(T) :- T=0..N, maxtime(N). % the timepoint for planning without story
+
+% fluent/1
+fluent(at(A, L)) :- agent(A), location(L).
+fluent(at(I, L)) :- item(I), location(L).
+fluent(carry(A, I)) :- agent(A), item(I).
+
+% -released_at/2
+%   1. -released_at(F, T) means commonsense law of inertia (CLI) can be applied to fluent F at T
+%   2. CLI is also applied to this literal itself
+-released_at(F, 0) :- fluent(F).
+
+% holds_at/2
+% initial states of fluents -- only location of items needs to be guessed
+{holds_at(at(I, L), 0): location(L)} = 1 :- item(I).
+
+% happens/2
+% for each timepoint, at most 1 event happens; and it happens as fewer as possible
+% {happens(E, T): event(E)}1 :- timepoint(T). % this rule would slow down many tasks
+:~ happens(E, T). [1@0, E, T]
+
+% precondition on actions -- pickup
+:- happens(action(A, pickup, I), T), holds_at(at(A, L1), T), holds_at(at(I, L2), T), L1 != L2.
+
+% initiates/3 and terminates/3
+
+% effect of actions -- pickup
+initiates(action(A, pickup, I), carry(A, I), T) :- agent(A), item(I), timepoint(T).
+
+% effect of actions -- drop
+terminates(action(A, drop, I), carry(A, I), T) :- agent(A), item(I), timepoint(T).
+
+% effect of actions -- give
+initiates(action(A1, give, A2, I), carry(A2, I), T) :- agent(A1), agent(A2), item(I), timepoint(T), A1 != A2.
+terminates(action(A1, give, A2, I), carry(A1, I), T) :- agent(A1), agent(A2), item(I), timepoint(T), A1 != A2.
+
+% effect of actions -- goto
+initiates(action(A, goto, L), at(A, L), T) :- agent(A), location(L), timepoint(T).
+initiates(action(A, goto, L), at(I, L), T) :- holds_at(carry(A, I), T), location(L).
+initiates(action(A, goto, D), at(A, L2), T) :- 
+    agent(A), location(L1), location(L2), timepoint(T), 
+    holds_at(at(A, L1), T), is(L2, D, L1).
+terminates(action(A, goto, L1), at(A, L2), T) :- agent(A), location(L1), location(L2), timepoint(T), L1 != L2.
+terminates(action(A, goto, L1), at(I, L2), T) :- holds_at(carry(A, I), T), location(L1), location(L2), L1 != L2.
+terminates(action(A, goto, Direction), at(A, L), T) :-
+    happens(action(A, goto, Direction), T),
+    holds_at(at(A, L), T), Direction != L.
+
+%********************
+* extract answers from query
+*********************%
+
+% query on fluent
+answer(L) :- query(at(A, where)), holds_at(at(A, L), T), T>=Tx: timepoint(Tx).
+
+%%%%%%%%%%%%%%%%%%%%% AXIOMS %%%%%%%%%%%%%%%%%%%%%
+
+% (DEC1)
+stopped_in(T1,F,T2) :- timepoint(T),
+                       timepoint(T1),
+                       timepoint(T2),
+                       fluent(F),
+                       event(E),
+                       happens(E,T),
+                       T1<T,
+                       T<T2,
+                       terminates(E,F,T).
+
+% (DEC2)
+started_in(T1,F,T2) :- timepoint(T),
+                       timepoint(T1),
+                       timepoint(T2),
+                       fluent(F),
+                       event(E),
+                       happens(E,T),
+                       T1<T,
+                       T<T2,
+                       initiates(E,F,T).
+
+% (DEC3)
+holds_at(F2,T1+T2) :- timepoint(T1),
+                      timepoint(T2),
+                      fluent(F1),
+                      fluent(F2),
+                      event(E),
+                      happens(E,T1),
+                      initiates(E,F1,T1),
+                      0<T2,
+                      trajectory(F1,T1,F2,T2),
+                      not stopped_in(T1,F1,T1+T2).
+
+% (DEC4)
+holds_at(F2,T1+T2) :- timepoint(T1),
+                      timepoint(T2),
+                      fluent(F1),
+                      fluent(F2),
+                      event(E),
+                      happens(E,T1),
+                      terminates(E,F1,T1),
+                      0<T2,
+                      anti_trajectory(F1,T1,F2,T2),
+                      not started_in(T1,F1,T1+T2).
+
+initiated(F,T) :- timepoint(T),
+                  fluent(F),
+                  event(E),
+                  happens(E,T),
+                  initiates(E,F,T).
+
+terminated(F,T) :- timepoint(T),
+                   fluent(F),
+                   event(E),
+                   happens(E,T),
+                   terminates(E,F,T).
+
+released(F,T) :- timepoint(T),
+                 fluent(F),
+                 event(E),
+                 happens(E,T),
+                 releases(E,F,T).
+
+% (DEC5)
+holds_at(F,T+1) :- timepoint(T),
+                   fluent(F),
+                   holds_at(F,T),
+                   -released_at(F,T+1),
+                   not terminated(F,T).
+
+% (DEC6)
+-holds_at(F,T+1) :- timepoint(T),
+                    fluent(F),
+                    -holds_at(F,T),
+                    -released_at(F,T+1),
+                    not initiated(F,T).
+
+% (DEC7)
+released_at(F,T+1) :- timepoint(T),
+                      fluent(F),
+                      released_at(F,T),
+                      not initiated(F,T),
+                      not terminated(F,T).
+
+% (DEC8)
+-released_at(F,T+1) :- timepoint(T),
+                      fluent(F),
+                      -released_at(F,T),
+                      not released(F,T).
+
+% (DEC9)
+holds_at(F,T+1) :- timepoint(T),
+                   fluent(F),
+                   event(E),
+                   happens(E,T),
+                   initiates(E,F,T).
+
+% (DEC10)
+-holds_at(F,T+1) :- timepoint(T),
+                    fluent(F),
+                    event(E),
+                    happens(E,T),
+                    terminates(E,F,T).
+
+% (DEC11)
+released_at(F,T+1) :- timepoint(T),
+                      fluent(F),
+                      event(E),
+                      happens(E,T),
+                      releases(E,F,T).
+
+% (DEC12)
+-released_at(F,T+1) :- timepoint(T),
+                       fluent(F),
+                       event(E),
+                       happens(E,T),
+                       initiates(E,F,T).
+-released_at(F,T+1) :- timepoint(T),
+                       fluent(F),
+                       event(E),
+                       happens(E,T),
+                       terminates(E,F,T).

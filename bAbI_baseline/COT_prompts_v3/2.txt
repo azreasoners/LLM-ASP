@@ -1,0 +1,104 @@
+Please read each example story and answer the question that follows.
+Question:
+John moved to the kitchen.
+Daniel went to the bedroom.
+Mary picked up the football there.
+Daniel grabbed the apple there.
+Daniel put down the apple.
+Sandra journeyed to the office.
+Mary journeyed to the office.
+Mary moved to the bedroom.
+Mary moved to the kitchen.
+Mary moved to the hallway.
+Sandra went back to the hallway.
+Sandra went to the garden.
+Mary journeyed to the garden.
+Daniel grabbed the apple there.
+John travelled to the bedroom.
+Daniel moved to the garden.
+Where is the apple?
+
+Answer: Daniel went to the bedroom. Then Daniel picked up the apple. Then Daniel put down the apple in the bedroom. Then Daniel picked up the apple in the bedroom. Then Daniel picked up the apple in the bedroom. Then Daniel moved to the garden.  Daniel has the apple and the final location of Daniel is the garden. So the answer is garden.
+
+Question:
+John travelled to the office.
+Daniel travelled to the office.
+Mary grabbed the football there.
+Daniel went back to the hallway.
+Mary left the football.
+Sandra grabbed the apple there.
+Mary went to the bedroom.
+Sandra journeyed to the bedroom.
+Daniel journeyed to the bathroom.
+Mary went back to the office.
+Where is the apple?
+
+Answer: Sandra picked up the apple. Then Sandra went to the bedroom. Sandra has the apple and the final location of Sandra is the bedroom. So the answer is bedroom.
+
+Question:
+John picked up the football there.
+Mary went back to the office.
+Daniel went back to the bathroom.
+Mary went back to the bathroom.
+Daniel travelled to the garden.
+John went to the bathroom.
+John went to the bedroom.
+Sandra travelled to the hallway.
+Daniel went back to the bathroom.
+John dropped the football.
+Sandra journeyed to the bedroom.
+John went to the bathroom.
+Daniel went to the garden.
+Mary went back to the kitchen.
+Sandra got the football there.
+Mary moved to the hallway.
+Daniel grabbed the apple there.
+Daniel moved to the office.
+Mary went back to the kitchen.
+Daniel left the apple.
+Where is the apple?
+
+Answer: Daniel went to the bathroom. Then Daniel went to the garden. Then Daniel went to the bathroom. Then Daniel went to the garden. Then Daniel picked up the apple. Then Daniel went to the office. Daniel dropped the apple there. The final location of apple is the office. So the answer is office.
+
+Question:
+John moved to the kitchen.
+Daniel went to the bedroom.
+Mary picked up the football there.
+Daniel grabbed the apple there.
+Daniel put down the apple.
+Sandra journeyed to the office.
+Where is the apple?
+
+Answer: Daniel went to the bedroom. Then Daniel picked up the apple. Then Daniel dropped the apple. The final location of the apple is the bedroom. So the answer is bedroom.
+
+Question:
+John picked up the football there.
+Mary went back to the office.
+Daniel went back to the bathroom.
+Mary went back to the bathroom.
+Daniel travelled to the garden.
+John went to the bathroom.
+John went to the bedroom.
+Sandra travelled to the hallway.
+Daniel went back to the bathroom.
+John dropped the football.
+Where is the football?
+
+Answer: John picked up the football. Then John went to the bathroom. Then John went to the bedroom. The John dropped the football. The final location of the football is the bedroom. So the answer is bedroom.
+
+Question:
+Daniel went to the kitchen.
+Daniel journeyed to the hallway.
+Mary went back to the garden.
+Daniel picked up the apple there.
+Sandra went to the office.
+Sandra travelled to the bedroom.
+Mary got the football there.
+Sandra grabbed the milk there.
+Mary left the football.
+Daniel left the apple.
+Where is the football?
+
+Answer: Mary went to the garden. Then Mary picked up the football. Then Mary dropped the football. The final location of the football is the garden. So the answer is garden.
+
+Question:

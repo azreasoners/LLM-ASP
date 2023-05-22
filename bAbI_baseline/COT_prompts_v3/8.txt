@@ -1,0 +1,68 @@
+Please read each example story and answer the question that follows.
+Question:
+Mary travelled to the bedroom.
+Mary grabbed the apple there.
+Daniel went to the bathroom.
+Mary travelled to the office.
+Mary went to the hallway.
+Mary moved to the garden.
+What is Mary carrying?
+
+Answer: Mary got the apple. Mary is carrying the apple. So the answer is apple.
+
+Question:
+Sandra took the apple there.
+Mary journeyed to the garden.
+Sandra got the football there.
+Daniel moved to the kitchen.
+What is Sandra carrying?
+
+Answer: Sandra got the apple. Then Sandra got the football. Sandra is carrying the apple and football. So the answer is apple,football.
+
+Question:
+Sandra went back to the kitchen.
+Daniel went back to the garden.
+Daniel moved to the kitchen.
+Daniel went to the bedroom.
+Daniel got the milk there.
+Daniel left the milk.
+What is Daniel carrying?
+
+Answer: Daniel got the milk. Then Daniel dropped the milk. Daniel is carrying nothing. So the answer is nothing.
+
+Question:
+John travelled to the bedroom.
+Mary went to the office.
+John took the milk there.
+Sandra journeyed to the hallway.
+What is John carrying?
+
+Answer: John got the milk. John is carrying the milk. So the answer is milk.
+
+Question:
+Sandra journeyed to the office.
+Daniel journeyed to the office.
+Mary went to the office.
+Daniel journeyed to the bedroom.
+John went to the garden.
+Daniel went back to the hallway.
+John travelled to the hallway.
+John picked up the football there.
+Daniel took the milk there.
+John journeyed to the office.
+What is John carrying?
+
+Answer: John got the football. John is carrying the football. So the answer is football.
+
+Question:
+Daniel went to the kitchen.
+Daniel journeyed to the hallway.
+Mary went back to the garden.
+Daniel picked up the apple there.
+John moved to the bathroom.
+Sandra went back to the hallway.
+What is Daniel carrying?
+
+Answer: Daniel picked up the apple. Daniel is carrying the apple. So the answer is apple.
+
+Question:

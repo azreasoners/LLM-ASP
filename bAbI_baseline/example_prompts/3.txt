@@ -1,0 +1,80 @@
+Please read each example story and answer the question that follows.
+Example:
+Mary picked up the apple.
+John went to the office.
+Mary journeyed to the garden.
+Mary went to the bedroom.
+Sandra moved to the garden.
+Mary dropped the apple.
+John moved to the kitchen.
+John picked up the football there.
+Where was the apple before the bedroom?
+Answer: garden
+
+Example:
+Daniel picked up the apple.
+Daniel discarded the apple.
+Daniel took the apple.
+Mary journeyed to the bathroom.
+Mary grabbed the milk.
+Mary got the football.
+Daniel put down the apple there.
+Mary discarded the milk.
+Mary discarded the football.
+Daniel took the apple there.
+Mary took the football.
+Daniel moved to the bedroom.
+Sandra went to the kitchen.
+Daniel journeyed to the office.
+Where was the apple before the office?
+Answer: bedroom
+
+Example:
+Mary travelled to the office.
+Daniel took the apple.
+Daniel journeyed to the bathroom.
+Mary journeyed to the hallway.
+John journeyed to the bedroom.
+Daniel went back to the office.
+Where was the apple before the office?
+Answer: bathroom
+
+Example:
+John grabbed the milk.
+Sandra journeyed to the garden.
+Mary went back to the garden.
+Daniel went back to the office.
+John left the milk.
+Sandra went back to the hallway.
+Mary moved to the bathroom.
+John grabbed the milk.
+Daniel journeyed to the garden.
+Sandra got the apple there.
+John went back to the hallway.
+Sandra dropped the apple.
+Sandra got the apple.
+Sandra travelled to the bathroom.
+Sandra journeyed to the bedroom.
+John travelled to the bathroom.
+Where was the apple before the bedroom?
+Answer: bathroom
+
+Example:
+Mary picked up the apple.
+John went to the office.
+Mary journeyed to the garden.
+Mary went to the bedroom.
+Where was the apple before the bedroom?
+Answer: garden
+
+Example:
+Mary travelled to the office.
+Daniel took the apple.
+Daniel journeyed to the bathroom.
+Mary journeyed to the hallway.
+John journeyed to the bedroom.
+Daniel went back to the office.
+Where was the apple before the office?
+Answer: bathroom
+
+Example:

@@ -1,0 +1,44 @@
+Please read each example story and answer the question that follows.
+Question:
+The office is north of the kitchen.
+The bathroom is north of the office.
+What is north of the kitchen?
+
+Answer: The office is north of the kitchen. So the answer is office.
+
+Question:
+The hallway is west of the office.
+The office is west of the bathroom.
+What is west of the bathroom?
+
+Answer: The office is west of the bathroom. So the answer is office.
+
+Question:
+The bathroom is north of the bedroom.
+The bathroom is south of the kitchen.
+What is south of the kitchen?
+
+Answer: The bathroom is south of the kitchen. So the answer is bathroom.
+
+Question:
+The kitchen is north of the garden.
+The garden is north of the hallway.
+What is north of the garden?
+
+Answer: The kitchen is north of the garden. So the answer is kitchen.
+
+Question:
+The bathroom is north of the kitchen.
+The garden is south of the kitchen.
+What is the kitchen south of?
+
+Answer: The bathroom is north of the kitchen so the kitchen is south of the bathroom. So the answer is bathroom. 
+
+Question:
+The bathroom is north of the office.
+The garden is north of the bathroom.
+What is the office south of?
+
+Answer: The bathroom is north of the office so the office is south of the bathroom. So the answer is bathroom.
+
+Question:

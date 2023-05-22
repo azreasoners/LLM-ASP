@@ -1,0 +1,80 @@
+Please read each example story and answer the question that follows.
+Question:
+Jeff took the milk there.
+Jeff gave the milk to Bill.
+Who did Jeff give the milk to?
+
+Answer: Jeff picked up the milk. Then Jeff gave the milk to Bill. So the answer is Bill.
+
+Question:
+Fred grabbed the football there.
+Jeff took the apple there.
+Jeff dropped the apple.
+Bill picked up the apple there.
+Mary travelled to the kitchen.
+Mary went back to the hallway.
+Bill went to the garden.
+Fred travelled to the garden.
+Bill passed the apple to Fred.
+Fred left the apple.
+Fred went back to the hallway.
+Fred handed the football to Mary.
+Jeff went back to the garden.
+Bill picked up the apple there.
+Mary travelled to the office.
+Mary travelled to the kitchen.
+Who gave the football?
+
+Answer: Fred picked up the football. Then Fred gave the football to Mary. So the answer is Fred.
+
+Question:
+Fred travelled to the garden.
+Jeff took the milk there.
+Bill journeyed to the kitchen.
+Jeff passed the milk to Bill.
+Bill gave the milk to Jeff.
+Jeff passed the milk to Bill.
+Bill gave the milk to Jeff.
+Jeff put down the milk.
+Jeff moved to the office.
+Mary went to the hallway.
+What did Bill give to Jeff?
+
+Answer: Bill went to the kitchen. Then Jeff gave the milk to Bill. Then Bill gave the milk to Jeff. Then Jeff gave the milk to Bill. Then Bill gave the milk to Jeff. So the answer is milk.
+
+Question:
+Mary took the football there.
+Bill went to the garden.
+Fred journeyed to the office.
+Mary put down the football there.
+Jeff journeyed to the kitchen.
+Mary took the football there.
+Mary passed the football to Jeff.
+Jeff travelled to the hallway.
+What did Mary give to Jeff?
+
+Answer: Mary picked up the football. Then Mary put down the football. Then Mary picked up the football. Then Mary gave the football to Jeff. So the answer is football.
+
+Question:
+Fred moved to the hallway.
+Mary took the milk there.
+Jeff picked up the football there.
+Jeff gave the football to Fred.
+What did Jeff give to Fred?
+
+Answer: Jeff picked up the football. Then Jeff gave the football to Fred. So the answer is football.
+
+Question:
+Mary took the football there.
+Bill went to the garden.
+Fred journeyed to the office.
+Mary put down the football there.
+Jeff journeyed to the kitchen.
+Mary took the football there.
+Mary passed the football to Jeff.
+Jeff travelled to the hallway.
+What did Mary give to Jeff?
+
+Answer: Mary picked up the football. Then Mary dropped the football. Then Mary picked up the football. Then Mary gave the football to Jeff. So the answer is football.
+
+Question:

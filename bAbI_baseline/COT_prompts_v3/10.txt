@@ -1,0 +1,58 @@
+Please read each example story and answer the question that follows.
+Question:
+Mary is either in the kitchen or the bedroom.
+Mary journeyed to the office.
+Is Mary in the kitchen?
+
+Answer: Mary is either in the kitchen or the bedroom. Then Mary went to the office. The final location of Mary is the office. So the answer is no.
+
+Question:
+Fred travelled to the office.
+Julie is either in the kitchen or the park.
+Is Julie in the kitchen?
+
+Answer: Julie is either in the kitchen or the park. The final location of Julie is either in the kithen or the park. So the answer is maybe.
+
+Question:
+Julie is in the school.
+Fred is either in the kitchen or the bedroom.
+Mary is either in the school or the office.
+Bill is either in the park or the office.
+Julie travelled to the cinema.
+Mary is in the cinema.
+Julie is in the bedroom.
+Mary moved to the kitchen.
+Julie is in the office.
+Julie is in the school.
+Is Mary in the cinema?
+
+Answer: Mary is either in the school or the office. Then Mary is in the cinema. Then Mary went to the kitchen. The final location of Mary is in the kitchen. So the answer is no.
+
+Question:
+Julie moved to the park.
+Mary moved to the kitchen.
+Julie is either in the bedroom or the school.
+Fred journeyed to the bedroom.
+Is Julie in the bedroom?
+
+Answer: Julie went to the park. Julie is either in the bedroom or the school. The final locatino of Juliue is either the bedroom or the school. So the answer is maybe.
+
+Question:
+Fred journeyed to the park.
+Bill moved to the school.
+Bill went to the cinema.
+Mary is either in the cinema or the park.
+Fred is in the kitchen.
+Fred went to the office.
+Is Bill in the cinema?
+
+Answer: Bill went to the school. Bill went to the cinema. The final location of Bill is the cinema. So the answer is yes.
+
+Question:
+Julie is in the school.
+Fred is either in the kitchen or the bedroom.
+Is Fred in the office?
+
+Answer: Fred is either in the kitchen or the bedroom. The final location of Fred is either in the kitchen or the bedroom. So the answer is no. 
+
+Question:

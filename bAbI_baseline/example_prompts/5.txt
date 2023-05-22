@@ -1,0 +1,74 @@
+Please read each example story and answer the question that follows.
+Example:
+Jeff took the milk there.
+Jeff gave the milk to Bill.
+Who did Jeff give the milk to?
+Answer: Bill
+
+Example:
+Fred grabbed the football there.
+Jeff took the apple there.
+Jeff dropped the apple.
+Bill picked up the apple there.
+Mary travelled to the kitchen.
+Mary went back to the hallway.
+Bill went to the garden.
+Fred travelled to the garden.
+Bill passed the apple to Fred.
+Fred left the apple.
+Fred went back to the hallway.
+Fred handed the football to Mary.
+Jeff went back to the garden.
+Bill picked up the apple there.
+Mary travelled to the office.
+Mary travelled to the kitchen.
+Who gave the football?
+Answer: Fred
+
+Example:
+Fred travelled to the garden.
+Jeff took the milk there.
+Bill journeyed to the kitchen.
+Jeff passed the milk to Bill.
+Bill gave the milk to Jeff.
+Jeff passed the milk to Bill.
+Bill gave the milk to Jeff.
+Jeff put down the milk.
+Jeff moved to the office.
+Mary went to the hallway.
+What did Bill give to Jeff?
+Answer: milk
+
+Example:
+Mary took the football there.
+Bill went to the garden.
+Fred journeyed to the office.
+Mary put down the football there.
+Jeff journeyed to the kitchen.
+Mary took the football there.
+Mary passed the football to Jeff.
+Jeff travelled to the hallway.
+What did Mary give to Jeff?
+Answer: football
+
+Example:
+Fred moved to the hallway.
+Mary took the milk there.
+Jeff picked up the football there.
+Jeff gave the football to Fred.
+What did Jeff give to Fred?
+Answer: football
+
+Example:
+Mary took the football there.
+Bill went to the garden.
+Fred journeyed to the office.
+Mary put down the football there.
+Jeff journeyed to the kitchen.
+Mary took the football there.
+Mary passed the football to Jeff.
+Jeff travelled to the hallway.
+What did Mary give to Jeff?
+Answer: football
+
+Example:

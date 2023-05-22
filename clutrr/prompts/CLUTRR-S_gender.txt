@@ -1,0 +1,9 @@
+Given a story, extract atomic facts of the form male("Person") or female("Person") for every person that appears in the sentences.
+
+Story: [Jon] is [Carol]'s brother.  [Mervin] has a daughter called [Carol].  [Chantell] is a daughter of [Jon].  [Mervin] has a son called [Jon].
+Semantic Parse: male("Jon"). female("Carol"). male("Mervin"). female("Chantell").
+
+Story: [Melissa] is [Glenn]'s grandmother.  [Melissa] is the mother of [Calvin].  [Glenn] is a son of [Lila].  [Calvin] is [Glenn]'s father.
+Semantic Parse: female("Melissa"). male("Glenn"). male("Calvin"). female("Lila").
+
+Story: 

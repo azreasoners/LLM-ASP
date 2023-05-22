@@ -1,0 +1,46 @@
+%*
+QUERY:
+    walk,to,a,square,while zigzagging
+TARGET: 
+    walk,turn left,walk,turn right,walk,turn left,walk,turn right,walk,walk
+COMMAND:
+    clingo gscan.txt action_ec.txt ex4.txt
+ANSWER SET:
+    happens(action(agent,walk),0)
+    happens(action(agent,turn_left),1)
+    happens(action(agent,walk),2)
+    happens(action(agent,turn_right),3)
+    happens(action(agent,walk),4)
+    happens(action(agent,turn_left),5)
+    happens(action(agent,walk),6)
+    happens(action(agent,turn_right),7)
+    happens(action(agent,walk),8)
+    happens(action(agent,walk),9)
+COMMENT:
+    -
+*%
+
+
+%********************
+* problem instance
+*********************%
+
+query(walk).
+queryDesc(square).
+while(zigzagging).
+
+gridSize(6).
+pos(agent,(6,1)).
+dir(agent,east).
+
+pos(0,(4,5)).
+shape(0,square).
+color(0,blue).
+size(0,4).
+weight(0,heavy).
+
+pos(1,(6,4)).
+shape(1,cylinder).
+color(1,green).
+size(1,4).
+weight(1,heavy).

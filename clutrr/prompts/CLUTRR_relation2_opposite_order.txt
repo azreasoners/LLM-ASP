@@ -1,0 +1,27 @@
+Given a story, extract atomic facts of the form relation("Person", "Person"). Example relations are: father_of, mother_of, parent_of, son_of, daughter_of, child_of, grandfather_of, grandmother_of, grandson_of, granddaughter_of, wife_of, husband_of, spouse_of, sibling_of, nephew_of, niece_of, uncle_of, aunt_of, child_in_law_of, and parent_in_law_of.
+
+Story: [Verdie] waved good bye to her dad [Henry] for the day and went next door with her sister [Amanda]. [Henry]'s daughter, [Amanda], went to the city this weekend. She spent her time there visiting her grandfather, [Kyle], and had a wonderful time with him.
+Semantic Parse: father_of("Henry", "Verdie"). sister_of("Amanda", "Verdie"). daughter_of("Amanda", "Henry"). grandfather_of("Kyle", "Amanda").
+
+Story: [Michelle] was excited for today, its her daughter's, [Theresa], spring break. She will finally get to see her. [Michael] was busy and sent his wife, [Marlene], instead. [Kristen] loved to care for her newborn child [Ronald]. [Eric]'s son is [Arthur].
+Semantic Parse: daughter_of("Theresa", "Michelle"). wife_of("Marlene", "Michael"). child_of("Ronald", "Kristen"). son_of("Arthur", "Eric").
+
+Story: [Vernon] was present in the delivery room when his daughter [Raquel] was born, but when his daughter [Constance] was born he was too sick. [Vernon] and his daughter [Margaret] went to the movies. [Constance], [Margaret]'s sister, had to stay home as she was sick.
+Semantic Parse: daughter_of("Raquel", "Vernon"). daughter_of("Constance", "Vernon"). daughter_of("Margaret", "Vernon"). sister_of("Constance", "Margaret").
+
+Story: [Eric] who is [Carl]'s father grounded [Carl] after finding out what [Carl] had done at school. [Ronald] was busy planning a 90th birthday party for his aunt, [Theresa]. [Eric] and his son [Carl] went to the park and saw [Eric]'s father [Kyle] there with his dog.
+Semantic Parse: father_of("Eric", "Carl"). aunt_of("Theresa", "Ronald"). son_of("Carl", "Eric"). father_of("Kyle", "Eric").
+
+Story: [Shirley] and [Edward] are siblings and best friends. They do everything together. [Henry] walked his daughters [Amanda] and [Michelle] to school. [Kyle] enjoys watching movies with his son's daughter. Her name is [Amanda].
+Semantic Parse: sibling_of("Edward", "Shirley"). daughter_of("Amanda", "Henry"). daughter_of("Michelle", "Henry"). granddaughter_of("Amanda", "Kyle").
+
+Story: [Raquel] and her brother [Casey] took her grandmother [Karen] to the store to buy a new dress. [Karen] and her husband [Kyle] just celebrated 10 years of marriage. [Karen] loves her grandson, [Casey], and he loves her too.
+Semantic Parse: brother_of("Casey", "Raquel"). grandmother_of("Karen", "Raquel"). husband_of("Kyle", "Karen"). grandson_of("Casey", "Karen").
+
+Story: [Allen]'s father, [Eric], bought him some ice cream. [Karen] was baking cookies for her grandson, [Allen]. [Allen]'s brother [Arthur] came home from school, so she baked some extra for him, too. [Eric]'s son, [Arthur], was ill and needed to be picked up at school. [Eric] hurried to his side.
+Semantic Parse: father_of("Eric", "Allen"). grandson_of("Allen", "Karen"). brother_of("Arthur", "Allen"). son_of("Arthur", "Eric").
+
+Story: [Karen] was spending the weekend with her grandson, [Eddie]. [Eddie]'s sister [Michelle] was supposed to come too, but she was busy and could n't make it. [Theresa] took her daughter, [Michelle], out to High Tea yesterday afternoon. [Eddie]'s mother [Theresa] baked brownies for dessert after they had dinner.
+Semantic Parse: grandson_of("Eddie", "Karen"). sister_of("Michelle", "Eddie"). daughter_of("Michelle", "Theresa"). mother_of("Theresa", "Eddie").
+
+Story: 

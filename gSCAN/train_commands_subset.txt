@@ -1,0 +1,18 @@
+walk,to,a,yellow,small,cylinder,hesitantly
+walk,to,a,yellow,small,cylinder,while spinning
+walk,to,a,yellow,small,cylinder,while zigzagging
+push,a,yellow,small,cylinder,hesitantly
+push,a,yellow,small,cylinder,while spinning
+push,a,yellow,small,cylinder,while zigzagging
+pull,a,yellow,small,cylinder,hesitantly
+pull,a,yellow,small,cylinder,while zigzagging
+walk,to,a,yellow,small,cylinder
+walk,to,a,yellow,small,circle
+walk,to,a,green,small,square
+push,a,yellow,small,cylinder
+push,a,yellow,small,circle
+push,a,green,small,square
+pull,a,yellow,small,cylinder
+pull,a,yellow,small,circle
+pull,a,green,small,square
+push,a,green,small,square,cautiously

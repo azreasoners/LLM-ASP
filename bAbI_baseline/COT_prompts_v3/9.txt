@@ -1,0 +1,67 @@
+Please read each example story and answer the question that follows.
+Question:
+Sandra went to the hallway.
+Daniel is in the kitchen.
+John journeyed to the bathroom.
+John moved to the kitchen.
+Daniel went to the garden.
+Daniel went to the hallway.
+Is Daniel in the hallway?
+
+Answer: Daniel went to the kitchen. Then Daniel went to the garden. Then Daniel went to the hallway. The final location of Daniel is the hallway. So the answer is yes.
+
+Question:
+Sandra travelled to the kitchen.
+John went to the hallway.
+Is John in the bathroom?
+Answer: John went to the hallway. The final location of John is the hallway. So the answer is no.
+
+Question:
+Sandra travelled to the garden.
+Sandra is no longer in the garden.
+Is Sandra in the garden?
+
+Answer: Sandra went to the garden. Then Sandra left the garden. The final location of Sandra is not the garden. So the answer is no.
+
+Question:
+Sandra journeyed to the hallway.
+John is no longer in the bedroom.
+Mary went to the bedroom.
+John is no longer in the bathroom.
+Sandra is in the bedroom.
+Daniel journeyed to the bathroom.
+Mary journeyed to the kitchen.
+John travelled to the bedroom.
+John went back to the office.
+Daniel is not in the bathroom.
+Is Daniel in the bathroom?
+
+Answer: Daniel went to the bathroom. Then Daniel left the bathroom. The final location of Daniel is not the bathroom. So the answer is no.
+
+Question:
+Sandra moved to the office.
+John is not in the bathroom.
+Sandra moved to the bathroom.
+Mary went back to the bedroom.
+Sandra travelled to the garden.
+Sandra went to the office.
+Is Sandra in the office?
+
+Answer: Sandra went to the office. Then Sandra went to the bathroom. The Sandra went to the garden. Then Sandra went to the office. The final location of Sandra is the office. So the answer is yes.
+
+Question:
+Daniel went back to the garden.
+Daniel went back to the kitchen.
+Mary went back to the office.
+Sandra is no longer in the bathroom.
+Mary is in the hallway.
+John moved to the kitchen.
+Mary is in the kitchen.
+John is in the office.
+Sandra is in the kitchen.
+John went back to the hallway.
+Is Mary in the kitchen?
+
+Answer: Mary went to the office. Then Mary went to the hallway. Then Mary went to the kitchen. The final location of Mary is the kitchen. So the answer is yes.
+
+Question:

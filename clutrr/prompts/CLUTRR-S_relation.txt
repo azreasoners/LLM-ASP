@@ -1,0 +1,45 @@
+Given a story, extract atomic facts of the form relation("Person", "Person") about family relationships that appear in the sentences.
+
+Story: [Mervin] is [Robert]'s father.  [Robert] is the father of [Jim].  [Jon] is [Robert]'s brother.  [Mervin] is the father of [Jon].
+Semantic Parse: father("Robert", "Mervin"). father("Jim", "Robert"). brother("Robert", "Jon"). father("Jon", "Mervin").
+
+Story: [Brooke] is [Cheryl]'s sister.  [Jon] is the father of [Brooke].  [Melissa] is [Jon]'s mother.  [Jon] is [Cheryl]'s father.
+Semantic Parse: sister("Cheryl", "Brooke"). father("Brooke", "Jon"). mother("Jon", "Melissa"). father("Cheryl", "Jon").
+
+Story: [Jon] is [Carol]'s brother.  [Carol] is [Joyce]'s mother.  [Helen] is [Carol]'s sister.  [Helen] is a sister of [Jon].
+Semantic Parse: brother("Carol", "Jon"). mother("Joyce", "Carol"). sister("Carol", "Helen"). sister("Jon", "Helen").
+
+Story: [Melissa] is [Glenn]'s grandmother.  [Melissa] is the mother of [Calvin].  [Glenn] is a son of [Lila].  [Calvin] is [Glenn]'s father.
+Semantic Parse: grandmother("Glenn", "Melissa"). mother("Calvin", "Melissa"). son("Lila", "Glenn"). father("Glenn", "Calvin").
+
+Story: [Margaret] has a brother named [William].  [William] is [Carol]'s son.  [Margaret] is [Carol]'s daughter.  [Lila] is the aunt of [William].
+Semantic Parse: brother("Margaret", "William"). son("Carol", "William"). daughter("Carol", "Margaret"). aunt("William", "Lila").
+
+Story: [Stephanie] is a sister of [Lois].  [Lois] is [Theresa]'s sister.  [Helen] is [Lois]'s mother.  [Helen] is [Stephanie]'s mother.
+Semantic Parse: sister("Lois", "Stephanie"). sister("Theresa", "Lois"). mother("Lois", "Helen"). mother("Stephanie", "Helen").
+
+Story: [Jon] is [Elias]'s brother.  [Michael] is a son of [Helen].  [Jon] is the uncle of [Michael].  [Elias] is the father of [Michael].
+Semantic Parse: brother("Elias", "Jon"). son("Helen", "Michael"). uncle("Michael", "Jon"). father("Michael", "Elias").
+
+Story: [Carol] has a son called [William].  [Melissa] is the mother of [Jon].  [Jon] is the uncle of [William].  [Carol] has a brother named [Jon].
+Semantic Parse: son("Carol", "William"). mother("Jon", "Melissa"). uncle("William", "Jon"). brother("Carol", "Jon").
+
+Story: [Robert] is the father of [Jim].  [Robert] has a daughter called [Ashley].  [Elias] is [Robert]'s brother.  [Elias] is the uncle of [Ashley].
+Semantic Parse: father("Jim", "Robert"). daughter("Robert", "Ashley"). brother("Robert", "Elias"). uncle("Ashley", "Elias").
+
+Story: [Elias] is the father of [Carlos].  [Elias] is the father of [Andrew].  [Andrew] is [Carlos]'s brother.  [Jon] is a brother of [Elias].
+Semantic Parse: father("Carlos", "Elias"). father("Andrew", "Elias"). brother("Carlos", "Andrew"). brother("Elias", "Jon").
+
+Story: [Jon] is the father of [Ben].  [James] is [Kevin]'s brother.  [Ben] is a brother of [James].  [Jon] is [James]'s father.
+Semantic Parse: father("Ben", "Jon"). brother("Kevin", "James"). brother("James", "Ben"). father("James", "Jon").
+
+Story: [Carol] has a sister named [Lila].  [William] is [Carol]'s son.  [Helen] is [Lila]'s sister.  [Lila] is [William]'s aunt.
+Semantic Parse: sister("Carol", "Lila"). son("Carol", "William"). sister("Lila", "Helen"). aunt("William", "Lila").
+
+Story: [Calvin] is [Bruce]'s father.  [Elias] is [Calvin]'s brother.  [Calvin] is [Kira]'s father.  [Kira] is [Bruce]'s sister.
+Semantic Parse: father("Bruce", "Calvin"). brother("Calvin", "Elias"). father("Kira", "Calvin"). sister("Bruce", "Kira").
+
+Story: [Carol] is a sister of [Helen].  [Carol] is [Carlos]'s aunt.  [Lila] is [Carol]'s sister.  [Carlos] is [Helen]'s son.
+Semantic Parse: sister("Helen", "Carol"). aunt("Carlos", "Carol"). sister("Carol", "Lila"). son("Helen", "Carlos").
+
+Story: 

@@ -1,0 +1,27 @@
+Given a story, extract atomic facts of the form male("Person") or female("Person") for every person that appears in the sentences.
+
+Story: [Verdie] waved good bye to her dad [Henry] for the day and went next door with her sister [Amanda]. [Henry]'s daughter, [Amanda], went to the city this weekend. She spent her time there visiting her grandfather, [Kyle], and had a wonderful time with him.
+Semantic Parse: female("Verdie"). male("Henry"). female("Amanda"). male("Kyle").
+
+Story: [Michelle] was excited for today, its her daughter's, [Theresa], spring break. She will finally get to see her. [Michael] was busy and sent his wife, [Marlene], instead. [Kristen] loved to care for her newborn child [Ronald]. [Eric]'s son is [Arthur].
+Semantic Parse: female("Michelle"). female("Theresa"). male("Michael"). female("Marlene"). female("Kristen"). male("Ronald"). male("Eric"). male("Arthur").
+
+Story: [Vernon] was present in the delivery room when his daughter [Raquel] was born, but when his daughter [Constance] was born he was too sick. [Vernon] and his daughter [Margaret] went to the movies. [Constance], [Margaret]'s sister, had to stay home as she was sick.
+Semantic Parse: male("Vernon"). female("Raquel"). female("Constance"). female("Margaret").
+
+Story: [Eric] who is [Carl]'s father grounded [Carl] after finding out what [Carl] had done at school. [Ronald] was busy planning a 90th birthday party for his aunt, [Theresa]. [Eric] and his son [Carl] went to the park and saw [Eric]'s father [Kyle] there with his dog.
+Semantic Parse: male("Eric"). male("Carl"). male("Ronald"). female("Theresa"). male("Kyle").
+
+Story: [Shirley] and [Edward] are siblings and best friends. They do everything together. [Henry] walked his daughters [Amanda] and [Michelle] to school. [Kyle] enjoys watching movies with his son's daughter. Her name is [Amanda].
+Semantic Parse: female("Shirley"). male("Edward"). male("Henry"). female("Amanda"). female("Michelle"). male("Kyle").
+
+Story: [Raquel] and her brother [Casey] took her grandmother [Karen] to the store to buy a new dress. [Karen] and her husband [Kyle] just celebrated 10 years of marriage. [Karen] loves her grandson, [Casey], and he loves her too.
+Semantic Parse: female("Raquel"). male("Casey"). female("Karen"). male("Kyle").
+
+Story: [Allen]'s father, [Eric], bought him some ice cream. [Karen] was baking cookies for her grandson, [Allen]. [Allen]'s brother [Arthur] came home from school, so she baked some extra for him, too. [Eric]'s son, [Arthur], was ill and needed to be picked up at school. [Eric] hurried to his side.
+Semantic Parse: male("Allen"). male("Eric"). female("Karen"). male("Arthur").
+
+Story: [Karen] was spending the weekend with her grandson, [Eddie]. [Eddie]'s sister [Michelle] was supposed to come too, but she was busy and could n't make it. [Theresa] took her daughter, [Michelle], out to High Tea yesterday afternoon. [Eddie]'s mother [Theresa] baked brownies for dessert after they had dinner.
+Semantic Parse: female("Karen"). male("Eddie"). female("Michelle"). female("Theresa").
+
+Story: 

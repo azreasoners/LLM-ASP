@@ -1,0 +1,68 @@
+Please read each example story and answer the question that follows.
+Question:
+Sandra journeyed to the garden.
+Sandra went back to the bedroom.
+Daniel took the apple there.
+Sandra travelled to the office.
+Is Sandra in the office?
+
+Answer: Sandra went to the garden. Then Sandra went to the bedroom. Then Sandra went to the office. The final location of Sandra is the office. So the answer is yes.
+
+Question:
+Sandra journeyed to the garden.
+Sandra went back to the bedroom.
+Daniel took the apple there.
+Sandra travelled to the office.
+John went to the hallway.
+Sandra moved to the kitchen.
+Daniel journeyed to the bathroom.
+Daniel went back to the bedroom.
+Is Sandra in the office?
+
+Answer: Sandra went to the garden.Then Sandra went to the bedroom.Then Sandra went to the office.Then Sandra went to the kitchen. The final location of Sandra is the kitchen. So the answer is no.
+
+Question:
+John went back to the hallway.
+Daniel travelled to the hallway.
+Is Daniel in the bathroom?
+
+Answer: Daniel went to the hallway. The final location of Daniel is the hallway. So the answer is no.
+
+Question:
+Sandra went back to the hallway.
+Sandra moved to the office.
+Mary moved to the hallway.
+Daniel journeyed to the garden.
+Mary journeyed to the office.
+Mary went back to the hallway.
+John grabbed the apple there.
+Mary moved to the garden.
+Is Mary in the hallway?
+
+Answer: Mary went to the hallway.Then Mary went to the office.Then Mary went to the hallway.Then Mary went to the garden. The final location of Mary is the garden. So the answer is no.
+
+Question:
+Sandra moved to the office.
+John went back to the garden.
+Sandra went to the hallway.
+Sandra went to the kitchen.
+Mary went to the office.
+Sandra got the apple there.
+Mary journeyed to the hallway.
+Mary journeyed to the bedroom.
+Mary journeyed to the garden.
+Mary went to the kitchen.
+Is Mary in the kitchen?
+
+Answer: Mary went to the office.Then Mary went to the hallway.Then Mary went to the bedroom.Then Mary went to the garden.Then Mary went to the kitchen. The final location of Mary is the kitchen. So the answer is yes.
+
+Question:
+Daniel got the apple there.
+John picked up the football there.
+Daniel left the apple.
+Daniel moved to the kitchen.
+Is Daniel in the bedroom?
+
+Answer: Daniel went to the kitchen. The final location of Daniel is the kitchen. So the answer is no.
+
+Question:

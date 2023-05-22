@@ -1,0 +1,69 @@
+Please read each example story and answer the question that follows.
+Question:
+Mary journeyed to the bedroom yesterday.
+Julie journeyed to the park yesterday.
+Fred travelled to the park yesterday.
+This morning Fred journeyed to the cinema.
+This afternoon Fred went back to the office.
+Julie went back to the office this morning.
+This afternoon Julie journeyed to the kitchen.
+This morning Mary journeyed to the cinema.
+Yesterday Bill journeyed to the cinema.
+This evening Fred moved to the cinema.
+This evening Mary went to the kitchen.
+Mary went to the office this afternoon.
+Where was Mary before the kitchen?
+
+Answer: In the order of time, Mary went to the bedroom yesterday. Then Mary went to the cinema this morning. Then Mary went to the office this afternoon. Then Mary went to the kitchen this evening. So before the kitchen, Mary was in the office. So the answer is office.
+
+Question:
+
+Yesterday Mary went to the park.
+Fred went back to the school yesterday.
+Julie moved to the cinema yesterday.
+This morning Mary travelled to the office.
+Where was Mary before the office?
+
+Answer: In the order of time, Mary went to the park yesterday. Then Mary went to the office this morning. So before the office, Mary was in the park. So the answer is park.
+
+Question:
+Mary moved to the park this morning.
+Fred journeyed to the cinema yesterday.
+Yesterday Julie travelled to the park.
+Yesterday Mary travelled to the office.
+Mary moved to the office this afternoon.
+This morning Fred went to the kitchen.
+Julie went to the bedroom this morning.
+This afternoon Fred went to the cinema.
+This afternoon Julie journeyed to the school.
+Yesterday Bill went to the park.
+Where was Fred before the cinema?
+
+Answer: In the order of time, Fred went to the cinema yesterday. Then Fred went to the kitchen this morning. Then Fred went to the cinema this afternoon. So before the cinema, Fred was in the kitchen. So the answer is kitchen.
+
+Question:
+Mary travelled to the bedroom this morning.
+Mary journeyed to the school yesterday.
+Where was Mary before the bedroom?
+
+Answer: In the order of time, Mary went to the school yesterday. Then Mary went to the bedroom this morning. So before the bedroom, Mary went to the school. So the answer is school.
+
+Question:
+Bill journeyed to the kitchen this morning.
+Fred went back to the kitchen this morning.
+Yesterday Fred moved to the cinema.
+Bill journeyed to the bedroom yesterday.
+Where was Fred before the kitchen?
+
+Answer: In the order of time, Fred went to the cinema yesterday. Then Fred went to the kitchen this morning. So before the kitchen, Fred was in the cinema. So the answer is cinema.
+
+Question:
+Bill went back to the cinema yesterday.
+Julie went to the school this morning.
+Fred went to the park yesterday.
+Yesterday Julie went to the office.
+Where was Julie before the school?
+
+Answer: In the order of time, Julie went to the office yesterday. Then Julie went to the school this morning. So before the school, Julie was in the office. So the answer is office.
+
+Question:

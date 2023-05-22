@@ -1,0 +1,113 @@
+%*
+QUERY:
+    pull,a,yellow,small,cylinder,cautiously
+TARGET: 
+    turn right,turn left,turn right,turn right,turn left,walk,turn left,turn right,turn right,turn left,pull,turn left,turn right,turn right,turn left,pull
+COMMAND:
+    clingo gscan.txt action_ec.txt ex10.txt
+ANSWER SET:
+    happens(action(agent,turn_right),0)
+    happens(action(agent,turn_left),1)
+    happens(action(agent,turn_right),2)
+    happens(action(agent,turn_right),3)
+    happens(action(agent,turn_left),4)
+    happens(action(agent,walk),5)
+    happens(action(agent,turn_left),6)
+    happens(action(agent,turn_right),7)
+    happens(action(agent,turn_right),8)
+    happens(action(agent,turn_left),9)
+    happens(action(agent,pull),10)
+    happens(action(agent,turn_left),11)
+    happens(action(agent,turn_right),12)
+    happens(action(agent,turn_right),13)
+    happens(action(agent,turn_left),14)
+    happens(action(agent,pull),15)
+COMMENT:
+    -
+*%
+
+%********************
+* problem instance
+*********************%
+
+query(pull).
+queryDesc(yellow).
+queryDesc(small).
+queryDesc(cylinder).
+while(cautious).
+
+gridSize(6).
+pos(agent,(2,3)).
+dir(agent,east).
+
+pos(0,(3,3)).
+shape(0,cylinder).
+color(0,yellow).
+size(0,1).
+weight(0,light).
+
+pos(1,(1,4)).
+shape(1,cylinder).
+color(1,yellow).
+size(1,4).
+weight(1,heavy).
+
+pos(2,(6,2)).
+shape(2,cylinder).
+color(2,blue).
+size(2,3).
+weight(2,heavy).
+
+pos(3,(6,3)).
+shape(3,cylinder).
+color(3,blue).
+size(3,2).
+weight(3,light).
+
+pos(4,(6,1)).
+shape(4,circle).
+color(4,yellow).
+size(4,2).
+weight(4,light).
+
+pos(5,(1,6)).
+shape(5,circle).
+color(5,yellow).
+size(5,4).
+weight(5,heavy).
+
+pos(6,(1,5)).
+shape(6,circle).
+color(6,green).
+size(6,4).
+weight(6,heavy).
+
+pos(7,(6,5)).
+shape(7,circle).
+color(7,green).
+size(7,4).
+weight(7,heavy).
+
+pos(8,(1,2)).
+shape(8,circle).
+color(8,blue).
+size(8,1).
+weight(8,light).
+
+pos(9,(6,4)).
+shape(9,circle).
+color(9,blue).
+size(9,1).
+weight(9,light).
+
+pos(10,(1,1)).
+shape(10,square).
+color(10,red).
+size(10,1).
+weight(10,light).
+
+pos(11,(5,3)).
+shape(11,square).
+color(11,red).
+size(11,1).
+weight(11,light).

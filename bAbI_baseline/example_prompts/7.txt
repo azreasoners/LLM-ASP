@@ -1,0 +1,72 @@
+Please read each example story and answer the question that follows.
+Example:
+Daniel travelled to the office.
+Sandra journeyed to the kitchen.
+Daniel travelled to the garden.
+John moved to the kitchen.
+Daniel moved to the office.
+Sandra got the milk there.
+John went to the bathroom.
+Sandra left the milk.
+How many objects is Sandra carrying?
+Answer: none
+
+Example:
+Sandra travelled to the office.
+Daniel grabbed the apple there.
+Daniel discarded the apple.
+John went back to the hallway.
+How many objects is Daniel carrying?
+Answer: none
+
+Example:
+John journeyed to the hallway.
+Mary grabbed the milk there.
+John got the football there.
+Sandra journeyed to the hallway.
+Mary dropped the milk.
+Daniel journeyed to the hallway.
+How many objects is John carrying?
+Answer: one
+
+Example:
+Sandra went to the garden.
+Daniel journeyed to the bedroom.
+Mary picked up the apple there.
+Sandra got the milk there.
+Mary went to the kitchen.
+Sandra discarded the milk.
+Sandra moved to the bedroom.
+Daniel journeyed to the bathroom.
+Sandra went back to the kitchen.
+Mary went to the garden.
+How many objects is Sandra carrying?
+Answer: none
+
+Example:
+Sandra travelled to the bedroom.
+John travelled to the bathroom.
+John picked up the football there.
+John took the milk there.
+How many objects is John carrying? 
+Answer: two
+
+Example:
+Mary went back to the bathroom.
+John moved to the bedroom.
+Mary moved to the kitchen.
+Mary went to the garden.
+Sandra picked up the milk there.
+Mary travelled to the bedroom.
+Mary picked up the football there.
+Mary passed the football to John.
+John handed the football to Mary.
+Mary gave the football to John.
+Daniel went to the bedroom.
+John passed the football to Mary.
+Mary passed the football to John.
+Daniel travelled to the kitchen.
+How many objects is John carrying?
+Answer: one
+
+Example:

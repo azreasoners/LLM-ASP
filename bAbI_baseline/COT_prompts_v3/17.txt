@@ -1,0 +1,37 @@
+Please read each example story and answer the question that follows.
+Question:
+The red square is below the blue square.
+The blue square is below the pink rectangle.
+Is the red square below the pink rectangle?
+
+Answer: The red square is below the blue square. The blue square is below the pink rectangle. So, the red square is below the pink rectangle. So the answer is yes.
+
+Question:
+The red sphere is below the yellow square.
+The red sphere is above the blue square.
+Is the yellow square above the blue square?
+
+Answer: The red sphere is below the yellow square. The blue square is below the red sphere. So, the blue square is below the yellow square. So the answer is yes.
+
+Question:
+The red square is above the pink rectangle.
+The red square is to the right of the triangle.
+Is the triangle to the left of the pink rectangle?
+
+Answer: The red square is the right of the triangle.  The red square is above the pick rectangle. So, the triangle is to the left of the pink rectangle. So the answer is yes.
+
+Question:
+The red sphere is to the right of the red square.
+The red square is above the blue square.
+Is the blue square to the right of the red sphere?
+
+Answer: The red square is above the blue square. The red sphere is to the right of the red square. So, the blue square is to the left of the red sphere. So the answer is no.
+
+Question:
+The blue square is to the right of the red sphere.
+The red sphere is to the right of the triangle.
+Is the blue square to the left of the triangle?
+
+Answer: The red sphere is to the right of the triangle. The blue square is to the right of the red sphere. So blue square is to the right of the triangle. So the answer is no.
+
+Question: 

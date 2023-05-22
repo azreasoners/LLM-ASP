@@ -1,0 +1,81 @@
+Please read each example story and answer the question that follows.
+Question:
+Wolves are afraid of sheep.
+Sheep are afraid of cats.
+Mice are afraid of wolves.
+Emily is a wolf.
+Cats are afraid of mice.
+Jessica is a wolf.
+Gertrude is a cat.
+Winona is a wolf.
+What is winona afraid of?
+
+Answer: Winona is a wolf. Wolves are afraid of sheep. Winona is afraid of sheep. So the answer is sheep.
+
+Question:
+Wolves are afraid of cats.
+Mice are afraid of sheep.
+Emily is a mouse.
+Cats are afraid of wolves.
+Gertrude is a cat.
+Sheep are afraid of mice.
+Winona is a mouse.
+Jessica is a cat.
+What is gertrude afraid of?
+
+Answer: Gertrude is a cat. Cats are afraid of wolves. Gertrude is afraid of wolves. So the answer is wolf.
+
+Question:
+Wolves are afraid of mice.
+Mice are afraid of sheep.
+Sheep are afraid of wolves.
+Emily is a wolf.
+Winona is a mouse.
+Jessica is a mouse.
+Gertrude is a wolf.
+Cats are afraid of mice.
+What is gertrude afraid of?
+
+Answer: Gertrude is a wolf. Wolves are afraid of mice. Gertrude is afraid of mice. So the answer is mouse.
+
+Question:
+Wolves are afraid of sheep.
+Mice are afraid of wolves.
+Cats are afraid of mice.
+Emily is a cat.
+Winona is a wolf.
+Sheep are afraid of cats.
+Jessica is a cat.
+Gertrude is a sheep.
+What is winona afraid of?
+
+Answer: Winona is a wolf. Wolves are afraid of sheep. Winona is afraid of sheep. So the answer is sheep.
+
+Question:
+Cats are afraid of wolves.
+Mice are afraid of cats.
+Sheep are afraid of cats.
+Jessica is a cat.
+Gertrude is a sheep.
+Winona is a cat.
+Emily is a sheep.
+Wolves are afraid of sheep.
+What is gertrude afraid of?
+
+Answer: Gertrude is a sheep. Sheep are afraid of cats. Gertude is afraid of cats. So the answer is cat.
+
+Question:
+Example:
+Wolves are afraid of sheep.
+Winona is a wolf.
+Cats are afraid of wolves.
+Mice are afraid of wolves.
+Emily is a wolf.
+Sheep are afraid of mice.
+Jessica is a mouse.
+Gertrude is a sheep.
+What is emily afraid of?
+
+Answer: Emily is a wolf. Wolves are afraid of sheep. Emily is afraid of sheep. So the answer is sheep.
+
+Question:

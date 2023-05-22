@@ -1,0 +1,69 @@
+Please read each example story and answer the question that follows.
+Question:
+John went back to the bathroom.
+Mary travelled to the bathroom.
+Mary went to the garden.
+Sandra moved to the garden.
+John went to the kitchen.
+Daniel moved to the bathroom.
+Daniel went back to the hallway.
+Mary went to the kitchen.
+Where is Mary?
+
+Answer: Mary went to the bathroom. Then Mary went to the garden. Then Mary went to the kitchen. The final location of Mary is the kitchen. So the answer is kitchen.
+
+Question:
+John went back to the bathroom.
+Mary travelled to the bathroom.
+Mary went to the garden.
+Sandra moved to the garden.
+John went to the kitchen.
+Daniel moved to the bathroom.
+Daniel went back to the hallway.
+Mary went to the kitchen.
+Daniel went to the garden.
+Daniel travelled to the hallway.
+Where is Daniel?
+
+Answer: Daniel went to the bathroom. Then Daniel went to the hallway. Then Daniel went to the garden. Then Daniel went to the hallway. The final location of Daniel is the hallway. So the answer is hallway.
+
+Question:
+Mary moved to the garden.
+John journeyed to the bathroom.
+Sandra moved to the office.
+John moved to the kitchen.
+Sandra went to the hallway.
+Mary travelled to the bedroom.
+Mary moved to the office.
+John moved to the garden.
+Where is Sandra?
+
+Answer: Sandra went to the office. Then Sandra went to the hallway. The final location of Sandra is the hallway. So the answer is hallway.
+
+Question:
+Mary journeyed to the garden.
+Sandra went back to the office.
+Where is Sandra?
+
+Answer: Sandra went to the office. The final location of Sandra is the office. So the answer is office.
+
+Question:
+Mary journeyed to the garden.
+Sandra went back to the office.
+Sandra went to the bathroom.
+John travelled to the bathroom.
+Sandra moved to the bedroom.
+Sandra travelled to the hallway.
+Mary moved to the bathroom.
+John went to the kitchen.
+Where is Mary?
+
+Answer: Mary went to the garden. Then Mary went to the bathroom. The final location of Mary is the bathroom. So the answer is bathroom.
+
+Mary moved to the bathroom.
+John went to the hallway.
+Where is Mary?
+
+Answer: Mary went to the bathroom. The final location of Mary is the bathroom. So the answer is bathroom.
+
+Question:

@@ -1,0 +1,77 @@
+Please read each example story and answer the question that follows.
+Question:
+Daniel travelled to the office.
+Sandra journeyed to the kitchen.
+Daniel travelled to the garden.
+John moved to the kitchen.
+Daniel moved to the office.
+Sandra got the milk there.
+John went to the bathroom.
+Sandra left the milk.
+How many objects is Sandra carrying?
+
+Answer: Sandra got the milk. Then Sandra dropped the milk. Sandra is carry nothing. So the answer is none.
+
+Question:
+Sandra travelled to the office.
+Daniel grabbed the apple there.
+Daniel discarded the apple.
+John went back to the hallway.
+How many objects is Daniel carrying?
+
+Answer: Daniel got the apple. Then Daniel dropped the apple. Daniel is carrying nothing. So the answer is none.
+
+Question:
+John journeyed to the hallway.
+Mary grabbed the milk there.
+John got the football there.
+Sandra journeyed to the hallway.
+Mary dropped the milk.
+Daniel journeyed to the hallway.
+How many objects is John carrying?
+
+Answer: John got the football. John is carrying the football. So the answer is one.
+
+Question:
+Sandra went to the garden.
+Daniel journeyed to the bedroom.
+Mary picked up the apple there.
+Sandra got the milk there.
+Mary went to the kitchen.
+Sandra discarded the milk.
+Sandra moved to the bedroom.
+Daniel journeyed to the bathroom.
+Sandra went back to the kitchen.
+Mary went to the garden.
+How many objects is Sandra carrying?
+Answer: none
+
+Question:
+Sandra travelled to the bedroom.
+John travelled to the bathroom.
+John picked up the football there.
+John took the milk there.
+How many objects is John carrying?
+
+Answer: John got the football. Then John got the milk. John is carrying the football and the milk. So the answer is two.
+
+Question:
+Mary went back to the bathroom.
+John moved to the bedroom.
+Mary moved to the kitchen.
+Mary went to the garden.
+Sandra picked up the milk there.
+Mary travelled to the bedroom.
+Mary picked up the football there.
+Mary passed the football to John.
+John handed the football to Mary.
+Mary gave the football to John.
+Daniel went to the bedroom.
+John passed the football to Mary.
+Mary passed the football to John.
+Daniel travelled to the kitchen.
+How many objects is John carrying?
+
+Answer: Mary gave the football to John. Then John gave the football to Mary. Then Mary gave the football to John. Then John gave the football to Mary. Then Mary gave the football to John. John is carrying the football. So the answer is one.
+
+Question:

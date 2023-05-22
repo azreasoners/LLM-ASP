@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Example:
+Mary travelled to the bedroom.
+Mary grabbed the apple there.
+Daniel went to the bathroom.
+Mary travelled to the office.
+Mary went to the hallway.
+Mary moved to the garden.
+What is Mary carrying?
+Answer: apple
+
+Example:
+Sandra took the apple there.
+Mary journeyed to the garden.
+Sandra got the football there.
+Daniel moved to the kitchen.
+What is Sandra carrying?
+Answer: apple,football
+
+Example:
+Sandra went back to the kitchen.
+Daniel went back to the garden.
+Daniel moved to the kitchen.
+Daniel went to the bedroom.
+Daniel got the milk there.
+Daniel left the milk.
+What is Daniel carrying?
+Answer: nothing
+
+Example:
+John travelled to the bedroom.
+Mary went to the office.
+John took the milk there.
+Sandra journeyed to the hallway.
+What is John carrying?
+Answer: milk
+
+Example:
+Sandra journeyed to the office.
+Daniel journeyed to the office.
+Mary went to the office.
+Daniel journeyed to the bedroom.
+John went to the garden.
+Daniel went back to the hallway.
+John travelled to the hallway.
+John picked up the football there.
+Daniel took the milk there.
+John journeyed to the office.
+What is John carrying?
+Answer: football
+
+Example:
+Daniel went to the kitchen.
+Daniel journeyed to the hallway.
+Mary went back to the garden.
+Daniel picked up the apple there.
+John moved to the bathroom.
+Sandra went back to the hallway.
+What is Daniel carrying?
+Answer: apple
+
+Example:

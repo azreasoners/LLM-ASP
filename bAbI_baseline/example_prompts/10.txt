@@ -1,0 +1,52 @@
+Please read each example story and answer the question that follows.
+Example:
+Mary is either in the kitchen or the bedroom.
+Mary journeyed to the office.
+Is Mary in the kitchen?
+Answer: no
+
+Example:
+Fred travelled to the office.
+Julie is either in the kitchen or the park.
+Is Julie in the kitchen?
+Answer: maybe
+
+Example:
+Julie is in the school.
+Fred is either in the kitchen or the bedroom.
+Mary is either in the school or the office.
+Bill is either in the park or the office.
+Julie travelled to the cinema.
+Mary is in the cinema.
+Julie is in the bedroom.
+Mary moved to the kitchen.
+Julie is in the office.
+Julie is in the school.
+Is Mary in the cinema?
+Answer: no
+
+Example:
+Julie moved to the park.
+Mary moved to the kitchen.
+Julie is either in the bedroom or the school.
+Fred journeyed to the bedroom.
+Is Julie in the bedroom?
+Answer: maybe
+
+Example:
+Fred journeyed to the park.
+Bill moved to the school.
+Bill went to the cinema.
+Mary is either in the cinema or the park.
+Fred is in the kitchen.
+Fred went to the office.
+Is Bill in the cinema?
+Answer: yes
+
+Example:
+Julie is in the school.
+Fred is either in the kitchen or the bedroom.
+Is Fred in the office?
+Answer: no
+
+Example:

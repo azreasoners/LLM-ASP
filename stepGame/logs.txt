@@ -1,0 +1,58 @@
+# Two GPT-3 Baselines
+
+% python baseline.py --num 100 --engine text-davinci-003
+name            acc     correct total   file_name
+base            55.00   55      100     data/noise/qa1_test.txt
+base_CoT        61.00   61      100     data/noise/qa1_test.txt
+base            37.00   37      100     data/noise/qa2_test.txt
+base_CoT        45.00   45      100     data/noise/qa2_test.txt
+base            25.00   25      100     data/noise/qa3_test.txt
+base_CoT        30.00   30      100     data/noise/qa3_test.txt
+base            30.00   30      100     data/noise/qa4_test.txt
+base_CoT        35.00   35      100     data/noise/qa4_test.txt
+base            32.00   32      100     data/noise/qa5_test.txt
+base_CoT        35.00   35      100     data/noise/qa5_test.txt
+base            29.00   29      100     data/noise/qa6_test.txt
+base_CoT        27.00   27      100     data/noise/qa6_test.txt
+base            21.00   21      100     data/noise/qa7_test.txt
+base_CoT        22.00   22      100     data/noise/qa7_test.txt
+base            22.00   22      100     data/noise/qa8_test.txt
+base_CoT        24.00   24      100     data/noise/qa8_test.txt
+base            34.00   34      100     data/noise/qa9_test.txt
+base_CoT        23.00   23      100     data/noise/qa9_test.txt
+base            31.00   31      100     data/noise/qa10_test.txt
+base_CoT        25.00   25      100     data/noise/qa10_test.txt
+base            31.60   316     1000    All
+base_CoT        32.70   327     1000    All
+
+# Ours with text-davinci-002
+
+python main.py --num 1000 --engine text-davinci-002
+acc     correct total   file_name
+92.60   926     1000    data/noise/qa1_test.txt
+89.90   899     1000    data/noise/qa2_test.txt
+89.10   891     1000    data/noise/qa3_test.txt
+93.80   938     1000    data/noise/qa4_test.txt
+92.90   929     1000    data/noise/qa5_test.txt
+91.60   916     1000    data/noise/qa6_test.txt
+91.20   912     1000    data/noise/qa7_test.txt
+90.40   904     1000    data/noise/qa8_test.txt
+89.00   890     1000    data/noise/qa9_test.txt
+88.30   883     1000    data/noise/qa10_test.txt
+90.88   9088    10000   All
+
+# Ours with text-curie-001
+
+% python main.py --num 1000 --engine text-curie-001
+acc     correct total   file_name
+44.70   447     1000    data/noise/qa1_test.txt
+38.80   388     1000    data/noise/qa2_test.txt
+40.50   405     1000    data/noise/qa3_test.txt
+58.80   588     1000    data/noise/qa4_test.txt
+62.40   624     1000    data/noise/qa5_test.txt
+57.40   574     1000    data/noise/qa6_test.txt
+56.20   562     1000    data/noise/qa7_test.txt
+58.00   580     1000    data/noise/qa8_test.txt
+56.50   565     1000    data/noise/qa9_test.txt
+54.10   541     1000    data/noise/qa10_test.txt
+52.74   5274    10000   All

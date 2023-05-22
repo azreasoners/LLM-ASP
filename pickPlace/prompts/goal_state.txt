@@ -1,0 +1,9 @@
+Turn each sentence into an atomic fact of the form on(A, B).
+
+Sentence: The red block is on the yellow bowl.
+Semantic Parse: on("red block", "yellow bowl").
+
+Sentence: The violet block is on the blue block.
+Semantic Parse: on("violet block", "blue block").
+
+Sentence: 

@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Question:
+The office is east of the bathroom.
+The garden is east of the hallway.
+The hallway is north of the bathroom.
+The bathroom is east of the bedroom.
+The kitchen is west of the hallway.
+How do you go from the bedroom to the hallway?
+
+Answer: The bathroom is east of the bedroom. The hallway is north of the bathroom. You have to go east and then north. So the answer is e,n.
+
+Question:
+The bedroom is north of the hallway.
+The garden is west of the kitchen.
+The bathroom is south of the kitchen.
+The office is north of the bedroom.
+The hallway is east of the kitchen.
+How do you go from the bedroom to the kitchen?
+
+Answer: The bedroom is north of the hallway. The hallway is east of the kitchen. You have to south and then west. So the answer is s,w.
+
+Question:
+The office is south of the kitchen.
+The bedroom is east of the kitchen.
+The garden is east of the bathroom.
+The garden is north of the hallway.
+The kitchen is east of the garden.
+How do you go from the kitchen to the bathroom?
+
+Answer: The kitchen is east of the garden. The garden is east of the bathroom. You have to go west and then west. So the answer is w,w.
+
+Question:
+The hallway is north of the office.
+The garden is north of the kitchen.
+The office is west of the garden.
+The bedroom is west of the office.
+The bathroom is north of the garden.
+How do you go from the bathroom to the office?
+
+Answer: The bathroom is north of the garden. The office is west of the garden. You have to go south and then west. So the answer is s,w.
+
+Question:
+The hallway is north of the garden.
+The bedroom is west of the office.
+The bathroom is north of the office.
+The office is west of the kitchen.
+The kitchen is south of the garden.
+How do you go from the office to the garden?
+
+Answer: The office is west of the kitchen. The kitchen is south of the garden. You have to go east and then north. So the answer is e,n.
+
+Question:
+The garden is east of the bedroom.
+The office is north of the bathroom.
+The kitchen is west of the hallway.
+The garden is west of the office.
+The garden is north of the hallway.
+How do you go from the office to the hallway?
+
+Answer: The garden is west of the office. The garden is north of the hallway. You have to go west and then south. So the answer is w,s.
+
+Question:

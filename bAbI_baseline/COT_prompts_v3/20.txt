@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Question:
+Sumit is tired.
+Sumit went back to the bedroom.
+Why did sumit go to the bedroom?
+
+Answer: Sumit went to the bedroom because he was tired. So the answer is tired.
+
+Question:
+Antoine is thirsty.
+Where will antoine go?
+
+Answer: Since Antoine is thirsty he will go to the kitchen. So the answer is kitchen.
+
+Question:
+Yann is hungry.
+Yann journeyed to the kitchen.
+Yann took the apple there.
+Sumit is tired.
+Jason is tired.
+Jason moved to the bedroom.
+Sumit journeyed to the bedroom.
+Jason picked up the pajamas there.
+Antoine is hungry.
+Where will antoine go?
+
+Answer: Since Antoine is hungry, he will go to the kitchen. So the answer is kitchen.
+
+Question:
+Antoine is bored.
+Sumit is bored.
+Antoine moved to the garden.
+Jason is bored.
+Jason went back to the garden.
+Yann is tired.
+Jason grabbed the football there.
+Why did jason get the football?
+
+Answer: Jason grabbed the football because he was bored. So the answer is bored. 
+
+Question:
+Antoine is thirsty.
+Sumit is tired.
+Yann is thirsty.
+Antoine went back to the kitchen.
+Antoine took the milk there.
+Jason is bored.
+Yann travelled to the kitchen.
+Sumit moved to the bedroom.
+Sumit took the pajamas there.
+Jason went to the garden.
+Why did jason go to the garden?
+
+Answer: Jason went to the garden because he was bored. So the answer is bored. 
+
+Question:
+Jason is hungry.
+Where will jason go?
+
+Answer: Since Jason is hungry, he will go to the kitchen. So the answer is kitchen.
+
+Question:

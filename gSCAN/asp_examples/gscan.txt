@@ -1,0 +1,321 @@
+
+#show reach_goal/1.
+#show happens/2.
+%#show goal/1.
+%#show reach_destination/1.
+
+maxtime(20).
+
+%********************
+* find the goal
+*********************%
+
+% features of objects
+feature(O, shape, V) :- shape(O, V).
+feature(O, color, V) :- color(O, V).
+feature(O, size, V) :- size(O, V).
+
+% feature of destination
+feature(destination, V) :- query(walk), queryDesc(V).
+feature(destination, V) :- query(push), queryDesc(V).
+feature(destination, V) :- query(pull), queryDesc(V).
+
+% find the destination object and location
+pos_same(destination, O) :- feature(O,_,_),
+    feature(O,_,V): feature(destination, V), feature(_,_,V).
+
+same(destination, O) :- pos_same(destination, O), feature(O, size, V),
+    Vx<=V: feature(destination, big), pos_same(destination, Ox), feature(Ox, size, Vx);
+    Vx>=V: feature(destination, small), pos_same(destination, Ox), feature(Ox, size, Vx).
+
+goal(at(agent,L)) :- same(destination, O), pos(O,L).
+
+
+%********************
+* basic atoms
+*********************%
+agent(agent).
+item(I) :-  pos(I, L), I!=agent.
+location((X,Y)) :- X=0..N-1, Y=0..N-1, gridSize(N).
+
+is((X1,Y1), east, (X2,Y2)) :- location((X1,Y1)), location((X2,Y2)), X1=X2, Y1=Y2+1.
+is((X1,Y1), west, (X2,Y2)) :- location((X1,Y1)), location((X2,Y2)), X1=X2, Y1=Y2-1.
+is((X1,Y1), north, (X2,Y2)) :- location((X1,Y1)), location((X2,Y2)), X1=X2-1, Y1=Y2.
+is((X1,Y1), south, (X2,Y2)) :- location((X1,Y1)), location((X2,Y2)), X1=X2+1, Y1=Y2.
+
+pos_actions(walk; turn_left; turn_right; stay; push; pull).
+left_dir(east, north; north, west; west, south; south, east).
+
+%********************
+* atoms in DEC_AXIOMS
+*********************%
+
+% fluent/1
+fluent(dir(A, L)) :- agent(A), direction(L).
+fluent(ready(A)) :- agent(A).
+
+% event/1
+event(action(Agent, A)) :- agent(Agent), pos_actions(A).
+
+% initial fluent values
+holds_at(at(O,L),0) :- pos(O, L).
+holds_at(dir(A,D),0) :- dir(A, D).
+
+% for each timestep, we take at most 1 action
+{happens(action(agent, A), T): pos_actions(A)}1 :- timepoint(T).
+
+% initial location
+holds_at(at(agent, L), 0) :- initial_loc(L).
+
+%%%%%%%%%%%%%%%
+% action -- walk (to check simplification)
+%%%%%%%%%%%%%%%
+
+% initiates/3
+initiates(action(A, walk), at(A, L2), T) :- agent(A), location(L), timepoint(T),
+    holds_at(dir(A, D), T),
+    holds_at(at(A, L1), T),
+    is(L2, D, L1).
+
+% terminates/3
+terminates(action(A, walk), at(A, L1), T) :- agent(A), location(L), timepoint(T),
+    holds_at(dir(A, D), T),
+    holds_at(at(A, L1), T),
+    is(L2, D, L1).
+
+% precondition
+% we don't walk in a deadend (i.e., the walk will result in no location change)
+:- happens(action(agent, walk), T), not initiates(action(agent, walk), _, T).
+
+%%%%%%%%%%%%%%%
+% action -- turn_left (to check simplification)
+%%%%%%%%%%%%%%%
+
+% initiates/3
+initiates(action(A, turn_left), dir(A, D2), T) :- agent(A), timepoint(T),
+    holds_at(dir(A, D1), T),
+    left_dir(D1, D2).
+
+% terminates/3
+terminates(action(A, turn_left), dir(A, D1), T) :- agent(A), timepoint(T),
+    holds_at(dir(A, D1), T).
+
+%%%%%%%%%%%%%%%
+% action -- turn_right (to check simplification)
+%%%%%%%%%%%%%%%
+
+% initiates/3
+initiates(action(A, turn_right), dir(A, D2), T) :- agent(A), timepoint(T),
+    holds_at(dir(A, D1), T),
+    left_dir(D2, D1).
+
+% terminates/3
+terminates(action(A, turn_right), dir(A, D), T) :- agent(A), timepoint(T),
+    holds_at(dir(A, D), T).
+
+%%%%%%%%%%%%%%%
+% action -- push/pull
+%%%%%%%%%%%%%%%
+
+% initiates/3 for objects with size <= 2
+initiates(action(A, push), at(A, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L2, D, L1), feature(Target, size, V), V <= 2.
+
+initiates(action(A, push), at(Target, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L2, D, L1), feature(Target, size, V), V <= 2.
+
+initiates(action(A, pull), at(A, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L1, D, L2), feature(Target, size, V), V <= 2.
+
+initiates(action(A, pull), at(Target, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L1, D, L2), feature(Target, size, V), V <= 2.
+
+% terminates/3 for objects with size <= 2
+terminates(action(A, push), at(A, L1), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L2, D, L1), feature(Target, size, V), V <= 2.
+
+terminates(action(A, push), at(Target, L1), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L2, D, L1), feature(Target, size, V), V <= 2.
+
+terminates(action(A, pull), at(A, L1), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L1, D, L2), feature(Target, size, V), V <= 2.
+
+terminates(action(A, pull), at(Target, L1), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    is(L1, D, L2), feature(Target, size, V), V <= 2.
+
+% initiates/3 for objects with size >= 3
+
+initiates(action(A, push), ready(A), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), not holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3.
+
+initiates(action(A, push), at(A, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L2, D, L1).
+
+initiates(action(A, push), at(Target, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L2, D, L1).
+
+initiates(action(A, pull), ready(A), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), not holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3.
+
+initiates(action(A, pull), at(A, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L1, D, L2).
+
+initiates(action(A, pull), at(Target, L2), T) :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L1, D, L2).
+
+% terminates/3 for objects with size >= 3
+
+{ terminates(action(A, push), ready(A), T);
+  terminates(action(A, push), at(A, L1), T);
+  terminates(action(A, push), at(Target, L1), T) 
+}=3 :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L2, D, L1).
+
+{ terminates(action(A, pull), ready(A), T);
+  terminates(action(A, pull), at(A, L1), T);
+  terminates(action(A, pull), at(Target, L1), T) 
+}=3 :-
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T), holds_at(ready(A), T),
+    same(destination, Target), holds_at(at(Target, L1), T), feature(Target, size, V), V >= 3,
+    is(L1, D, L2).
+
+% precondition
+
+% 1. we don't push/pull in a deadend (i.e., the action will result in no location change)
+:- happens(action(agent, push), T), not initiates(action(agent, push), _, T).
+:- happens(action(agent, pull), T), not initiates(action(agent, pull), _, T).
+
+% 2. the agent can push/pull only if it's queried
+:- happens(action(agent, push), _), not query(push).
+:- happens(action(agent, pull), _), not query(pull).
+
+% 2. it's not allowed to have 3 objects (agent + 2 items) in the same cell
+% (I use holds_at(_, T) instead of timepoint(T) since the latter doesn't cover the last T+1 timestamp)
+%:- holds_at(_, T), location(L), N = #count{O: holds_at(at(O, L), T)}, N>2.
+
+% 3. after push/pull, the agent cannot do a different action in {walk, push, pull}
+:- happens(action(agent, A1), T1), happens(action(agent, A2), T2), A1!=A2, T1<T2,
+    1{A1=push; A1=pull},
+    1{A2=push; A2=pull; A2=walk}.
+
+% 4. the agent cannot change its direction to push/pull after reaching destination
+reach_destination(T) :- goal(at(agent,L)), holds_at(at(agent, L), T),
+    not reach_destination(Tx): timepoint(Tx), Tx<T.
+:- reach_destination(T1), holds_at(dir(agent, D1), T1), 
+    holds_at(dir(agent, D2), T2), happens(action(agent, push), T2), T1<T2, D1!=D2.
+:- reach_destination(T1), holds_at(dir(agent, D1), T1), 
+    holds_at(dir(agent, D2), T2), happens(action(agent, pull), T2), T1<T2, D1!=D2.
+
+%%%%%%%%%%%%%%%
+% goal
+%%%%%%%%%%%%%%%
+
+% 1. (optional to speed up) we need to reach the destination and as early as possible
+:- goal(at(agent,L)), not reach_destination(_).
+:~ goal(at(agent, L)), reach_destination(T). [T@10, goal]
+
+% 2. we need to reach the goal and as early as possible
+%   a. the direction when reaching goal must align with the direction when reaching destination
+%   b. if it's not deadend, there must be something blocking the next push/pull
+reach_goal(T) :- 
+    agent(A), holds_at(at(A, L1), T), holds_at(dir(A, D), T),
+    same(destination, Target), holds_at(at(Target, L1), T),
+    reach_destination(Tr), holds_at(dir(A, D), Tr),
+    holds_at(at(_, L2), T): query(push), is(L2, D, L1);
+    holds_at(at(_, L2), T): query(pull), is(L1, D, L2);
+    not reach_goal(Tx): timepoint(Tx), Tx<T.
+:- not reach_goal(_).
+:~ reach_goal(T). [T@9, goal]
+
+
+
+
+% 3. if the goal is push/pull, we want to push/pull as many times as possible
+%:~ query(push), happens(action(agent, push), T). [-1@9, push, T]
+%:~ query(pull), happens(action(agent, pull), T). [-1@9, pull, T]
+
+% 4. we want to complete the plan as early as possible (this is not necessary)
+%:~ happens(action(agent, _), T). [T@8, plan]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% additional requirements to achieve the goal
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% the agent cannot move further before reaching destination
+:- reach_destination(T), goal(at(agent, (Xg,Yg))),
+    holds_at(at(agent, (X1,Y1)), Tx), holds_at(at(agent, (X2,Y2)), Tx+1), Tx<T,
+    |X1-Xg| + |Y1-Yg| < |X2-Xg| + |Y2-Yg|.
+
+% by default, walking all the way horizontally first and then vertically
+move(horizontally, T) :- happens(action(agent, walk), T), holds_at(dir(agent, D), T), 1{D=east; D=west}.
+move(vertically, T) :- happens(action(agent, walk), T), holds_at(dir(agent, D), T), 1{D=south; D=north}.
+:- not while(zigzagging), move(horizontally, T1), move(vertically, T2), T1>T2.
+
+% hesitantly: the agent must stay after every action in {walk, push, pull}
+while(hesitantly) :- queryDesc(hesitantly).
+:- while(hesitantly), happens(action(agent, A), T),
+    1{A=walk; A=push; A=pull},
+    not happens(action(agent, stay), T+1).
+
+% cautiously
+cautious(T) :- happens(action(agent, turn_left), T), 
+    happens(action(agent, turn_right), T+1),
+    happens(action(agent, turn_right), T+2),
+    happens(action(agent, turn_left), T+3).
+
+% the agent must be cautious before every action in {walk, push, pull}
+:- while(cautiously), happens(action(agent, A), T),
+    1{A=walk; A=push; A=pull},
+    not cautious(T-4).
+
+% spinning
+spin(T) :- happens(action(agent, turn_left), T), 
+    happens(action(agent, turn_left), T+1),
+    happens(action(agent, turn_left), T+2),
+    happens(action(agent, turn_left), T+3).
+
+% we always spin at the beginning if there is any action
+:- while(spinning), happens(_,_), not spin(0).
+
+% we always spin after every action in {walk, push, pull} except for the last one
+:- while(spinning), happens(action(agent, A1), T1), happens(action(agent, A2), T2), T1<T2,
+    1{A1=walk; A1=push; A1=pull},
+    1{A2=walk; A2=push; A2=pull},
+    not spin(T1+1).
+
+% zigzagging
+% if horizontal move is needed, the first move must be horizontal
+:- while(zigzagging), move(horizontally, _), move(D, Tmin), D!=horizontally,
+    Tmin<=Tx: move(_,Tx).
+% if a different kind of move D2 is after D1, D2 must be followed directly
+:- while(zigzagging), move(D1, T1), move(D2, T2), D1!=D2, T1<T2,
+    not move(D2, T1+2).

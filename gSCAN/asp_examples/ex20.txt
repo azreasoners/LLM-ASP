@@ -1,0 +1,90 @@
+%*
+QUERY:
+    pull,a,blue,big,square
+TARGET: 
+    turn_left,walk,walk,walk,walk,pull,pull,pull,pull,pull,pull,pull,pull
+COMMAND:
+    clingo gscan.txt action_ec.txt ex20.txt
+ANSWER SET:
+    happens(action(agent,turn_left),0)
+    happens(action(agent,walk),1)
+    happens(action(agent,walk),2)
+    happens(action(agent,walk),3)
+    happens(action(agent,walk),4)
+    happens(action(agent,pull),5)
+    happens(action(agent,pull),6)
+    happens(action(agent,pull),7)
+    happens(action(agent,pull),8)
+COMMENT:
+    
+*%
+
+%********************
+* problem instance
+*********************%
+
+query(pull). queryDesc(blue). queryDesc(big). queryDesc(square).
+
+gridSize(6).
+pos(agent, (5,0)).
+dir(agent, east).
+
+pos(0, (1,0)).
+shape(0, square).
+color(0, blue).
+size(0, 4).
+
+pos(1, (2,3)).
+shape(1, square).
+color(1, blue).
+size(1, 2).
+
+pos(2, (0,1)).
+shape(2, square).
+color(2, green).
+size(2, 4).
+
+pos(3, (2,5)).
+shape(3, square).
+color(3, green).
+size(3, 2).
+
+pos(4, (3,3)).
+shape(4, circle).
+color(4, blue).
+size(4, 4).
+
+pos(5, (5,1)).
+shape(5, circle).
+color(5, blue).
+size(5, 2).
+
+pos(6, (3,2)).
+shape(6, circle).
+color(6, yellow).
+size(6, 3).
+
+pos(7, (4,3)).
+shape(7, circle).
+color(7, yellow).
+size(7, 3).
+
+pos(8, (0,5)).
+shape(8, cylinder).
+color(8, red).
+size(8, 1).
+
+pos(9, (1,5)).
+shape(9, cylinder).
+color(9, red).
+size(9, 1).
+
+pos(10, (5,4)).
+shape(10, square).
+color(10, red).
+size(10, 2).
+
+pos(11, (1,1)).
+shape(11, square).
+color(11, red).
+size(11, 2).

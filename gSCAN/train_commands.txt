@@ -1,0 +1,430 @@
+walk,to,a,yellow,small,cylinder,hesitantly
+walk,to,a,yellow,small,cylinder,while spinning
+walk,to,a,yellow,small,cylinder,while zigzagging
+walk,to,a,yellow,small,circle,hesitantly
+walk,to,a,yellow,small,circle,while spinning
+walk,to,a,yellow,small,circle,while zigzagging
+walk,to,a,yellow,big,cylinder,hesitantly
+walk,to,a,yellow,big,cylinder,while spinning
+walk,to,a,yellow,big,cylinder,while zigzagging
+walk,to,a,yellow,big,circle,hesitantly
+walk,to,a,yellow,big,circle,while spinning
+walk,to,a,yellow,big,circle,while zigzagging
+walk,to,a,green,small,square,hesitantly
+walk,to,a,green,small,square,while spinning
+walk,to,a,green,small,square,while zigzagging
+walk,to,a,green,small,cylinder,hesitantly
+walk,to,a,green,small,cylinder,while spinning
+walk,to,a,green,small,cylinder,while zigzagging
+walk,to,a,green,small,circle,hesitantly
+walk,to,a,green,small,circle,while spinning
+walk,to,a,green,small,circle,while zigzagging
+walk,to,a,green,big,square,hesitantly
+walk,to,a,green,big,square,while spinning
+walk,to,a,green,big,square,while zigzagging
+walk,to,a,green,big,cylinder,hesitantly
+walk,to,a,green,big,cylinder,while spinning
+walk,to,a,green,big,cylinder,while zigzagging
+walk,to,a,green,big,circle,hesitantly
+walk,to,a,green,big,circle,while spinning
+walk,to,a,green,big,circle,while zigzagging
+walk,to,a,red,small,cylinder,hesitantly
+walk,to,a,red,small,cylinder,while spinning
+walk,to,a,red,small,cylinder,while zigzagging
+walk,to,a,red,small,circle,hesitantly
+walk,to,a,red,small,circle,while spinning
+walk,to,a,red,small,circle,while zigzagging
+walk,to,a,red,big,cylinder,hesitantly
+walk,to,a,red,big,cylinder,while spinning
+walk,to,a,red,big,cylinder,while zigzagging
+walk,to,a,red,big,circle,hesitantly
+walk,to,a,red,big,circle,while spinning
+walk,to,a,red,big,circle,while zigzagging
+walk,to,a,blue,small,square,hesitantly
+walk,to,a,blue,small,square,while spinning
+walk,to,a,blue,small,square,while zigzagging
+walk,to,a,blue,small,cylinder,hesitantly
+walk,to,a,blue,small,cylinder,while spinning
+walk,to,a,blue,small,cylinder,while zigzagging
+walk,to,a,blue,small,circle,hesitantly
+walk,to,a,blue,small,circle,while spinning
+walk,to,a,blue,small,circle,while zigzagging
+walk,to,a,blue,big,square,hesitantly
+walk,to,a,blue,big,square,while spinning
+walk,to,a,blue,big,square,while zigzagging
+walk,to,a,blue,big,cylinder,hesitantly
+walk,to,a,blue,big,cylinder,while spinning
+walk,to,a,blue,big,cylinder,while zigzagging
+walk,to,a,blue,big,circle,hesitantly
+walk,to,a,blue,big,circle,while spinning
+walk,to,a,blue,big,circle,while zigzagging
+walk,to,a,yellow,cylinder,hesitantly
+walk,to,a,yellow,cylinder,while spinning
+walk,to,a,yellow,cylinder,while zigzagging
+walk,to,a,yellow,circle,hesitantly
+walk,to,a,yellow,circle,while spinning
+walk,to,a,yellow,circle,while zigzagging
+walk,to,a,green,square,hesitantly
+walk,to,a,green,square,while spinning
+walk,to,a,green,square,while zigzagging
+walk,to,a,green,cylinder,hesitantly
+walk,to,a,green,cylinder,while spinning
+walk,to,a,green,cylinder,while zigzagging
+walk,to,a,green,circle,hesitantly
+walk,to,a,green,circle,while spinning
+walk,to,a,green,circle,while zigzagging
+walk,to,a,red,cylinder,hesitantly
+walk,to,a,red,cylinder,while spinning
+walk,to,a,red,cylinder,while zigzagging
+walk,to,a,red,circle,hesitantly
+walk,to,a,red,circle,while spinning
+walk,to,a,red,circle,while zigzagging
+walk,to,a,blue,square,hesitantly
+walk,to,a,blue,square,while spinning
+walk,to,a,blue,square,while zigzagging
+walk,to,a,blue,cylinder,hesitantly
+walk,to,a,blue,cylinder,while spinning
+walk,to,a,blue,cylinder,while zigzagging
+walk,to,a,blue,circle,hesitantly
+walk,to,a,blue,circle,while spinning
+walk,to,a,blue,circle,while zigzagging
+walk,to,a,small,square,hesitantly
+walk,to,a,small,square,while spinning
+walk,to,a,small,square,while zigzagging
+walk,to,a,small,cylinder,hesitantly
+walk,to,a,small,cylinder,while spinning
+walk,to,a,small,cylinder,while zigzagging
+walk,to,a,small,circle,hesitantly
+walk,to,a,small,circle,while spinning
+walk,to,a,small,circle,while zigzagging
+walk,to,a,big,square,hesitantly
+walk,to,a,big,square,while spinning
+walk,to,a,big,square,while zigzagging
+walk,to,a,big,cylinder,hesitantly
+walk,to,a,big,cylinder,while spinning
+walk,to,a,big,cylinder,while zigzagging
+walk,to,a,big,circle,hesitantly
+walk,to,a,big,circle,while spinning
+walk,to,a,big,circle,while zigzagging
+walk,to,a,square,hesitantly
+walk,to,a,square,while spinning
+walk,to,a,square,while zigzagging
+walk,to,a,cylinder,hesitantly
+walk,to,a,cylinder,while spinning
+walk,to,a,cylinder,while zigzagging
+walk,to,a,circle,hesitantly
+walk,to,a,circle,while spinning
+walk,to,a,circle,while zigzagging
+push,a,yellow,small,cylinder,hesitantly
+push,a,yellow,small,cylinder,while spinning
+push,a,yellow,small,cylinder,while zigzagging
+push,a,yellow,small,circle,hesitantly
+push,a,yellow,small,circle,while spinning
+push,a,yellow,small,circle,while zigzagging
+push,a,yellow,big,cylinder,hesitantly
+push,a,yellow,big,cylinder,while spinning
+push,a,yellow,big,cylinder,while zigzagging
+push,a,yellow,big,circle,hesitantly
+push,a,yellow,big,circle,while spinning
+push,a,yellow,big,circle,while zigzagging
+push,a,green,small,square,hesitantly
+push,a,green,small,square,while spinning
+push,a,green,small,square,while zigzagging
+push,a,green,small,cylinder,hesitantly
+push,a,green,small,cylinder,while spinning
+push,a,green,small,cylinder,while zigzagging
+push,a,green,small,circle,hesitantly
+push,a,green,small,circle,while spinning
+push,a,green,small,circle,while zigzagging
+push,a,green,big,square,hesitantly
+push,a,green,big,square,while spinning
+push,a,green,big,square,while zigzagging
+push,a,green,big,cylinder,hesitantly
+push,a,green,big,cylinder,while spinning
+push,a,green,big,cylinder,while zigzagging
+push,a,green,big,circle,hesitantly
+push,a,green,big,circle,while spinning
+push,a,green,big,circle,while zigzagging
+push,a,red,small,cylinder,hesitantly
+push,a,red,small,cylinder,while spinning
+push,a,red,small,cylinder,while zigzagging
+push,a,red,small,circle,hesitantly
+push,a,red,small,circle,while spinning
+push,a,red,small,circle,while zigzagging
+push,a,red,big,cylinder,hesitantly
+push,a,red,big,cylinder,while spinning
+push,a,red,big,cylinder,while zigzagging
+push,a,red,big,circle,hesitantly
+push,a,red,big,circle,while spinning
+push,a,red,big,circle,while zigzagging
+push,a,blue,small,square,hesitantly
+push,a,blue,small,square,while spinning
+push,a,blue,small,square,while zigzagging
+push,a,blue,small,cylinder,hesitantly
+push,a,blue,small,cylinder,while spinning
+push,a,blue,small,cylinder,while zigzagging
+push,a,blue,small,circle,hesitantly
+push,a,blue,small,circle,while spinning
+push,a,blue,small,circle,while zigzagging
+push,a,blue,big,square,hesitantly
+push,a,blue,big,square,while spinning
+push,a,blue,big,square,while zigzagging
+push,a,blue,big,cylinder,hesitantly
+push,a,blue,big,cylinder,while spinning
+push,a,blue,big,cylinder,while zigzagging
+push,a,blue,big,circle,hesitantly
+push,a,blue,big,circle,while spinning
+push,a,blue,big,circle,while zigzagging
+pull,a,yellow,small,cylinder,hesitantly
+pull,a,yellow,small,cylinder,while zigzagging
+pull,a,yellow,small,circle,hesitantly
+pull,a,yellow,small,circle,while zigzagging
+pull,a,yellow,big,cylinder,hesitantly
+pull,a,yellow,big,cylinder,while zigzagging
+pull,a,yellow,big,circle,hesitantly
+pull,a,yellow,big,circle,while zigzagging
+pull,a,green,small,square,hesitantly
+pull,a,green,small,square,while zigzagging
+pull,a,green,small,cylinder,hesitantly
+pull,a,green,small,cylinder,while zigzagging
+pull,a,green,small,circle,hesitantly
+pull,a,green,small,circle,while zigzagging
+pull,a,green,big,square,hesitantly
+pull,a,green,big,square,while zigzagging
+pull,a,green,big,cylinder,hesitantly
+pull,a,green,big,cylinder,while zigzagging
+pull,a,green,big,circle,hesitantly
+pull,a,green,big,circle,while zigzagging
+pull,a,red,small,cylinder,hesitantly
+pull,a,red,small,cylinder,while zigzagging
+pull,a,red,small,circle,hesitantly
+pull,a,red,small,circle,while zigzagging
+pull,a,red,big,cylinder,hesitantly
+pull,a,red,big,cylinder,while zigzagging
+pull,a,red,big,circle,hesitantly
+pull,a,red,big,circle,while zigzagging
+pull,a,blue,small,square,hesitantly
+pull,a,blue,small,square,while zigzagging
+pull,a,blue,small,cylinder,hesitantly
+pull,a,blue,small,cylinder,while zigzagging
+pull,a,blue,small,circle,hesitantly
+pull,a,blue,small,circle,while zigzagging
+pull,a,blue,big,square,hesitantly
+pull,a,blue,big,square,while zigzagging
+pull,a,blue,big,cylinder,hesitantly
+pull,a,blue,big,cylinder,while zigzagging
+pull,a,blue,big,circle,hesitantly
+pull,a,blue,big,circle,while zigzagging
+push,a,yellow,cylinder,hesitantly
+push,a,yellow,cylinder,while spinning
+push,a,yellow,cylinder,while zigzagging
+push,a,yellow,circle,hesitantly
+push,a,yellow,circle,while spinning
+push,a,yellow,circle,while zigzagging
+push,a,green,square,hesitantly
+push,a,green,square,while spinning
+push,a,green,square,while zigzagging
+push,a,green,cylinder,hesitantly
+push,a,green,cylinder,while spinning
+push,a,green,cylinder,while zigzagging
+push,a,green,circle,hesitantly
+push,a,green,circle,while spinning
+push,a,green,circle,while zigzagging
+push,a,red,cylinder,hesitantly
+push,a,red,cylinder,while spinning
+push,a,red,cylinder,while zigzagging
+push,a,red,circle,hesitantly
+push,a,red,circle,while spinning
+push,a,red,circle,while zigzagging
+push,a,blue,square,hesitantly
+push,a,blue,square,while spinning
+push,a,blue,square,while zigzagging
+push,a,blue,cylinder,hesitantly
+push,a,blue,cylinder,while spinning
+push,a,blue,cylinder,while zigzagging
+push,a,blue,circle,hesitantly
+push,a,blue,circle,while spinning
+push,a,blue,circle,while zigzagging
+push,a,small,square,hesitantly
+push,a,small,square,while spinning
+push,a,small,square,while zigzagging
+push,a,small,cylinder,hesitantly
+push,a,small,cylinder,while spinning
+push,a,small,cylinder,while zigzagging
+push,a,small,circle,hesitantly
+push,a,small,circle,while spinning
+push,a,small,circle,while zigzagging
+push,a,big,square,hesitantly
+push,a,big,square,while spinning
+push,a,big,square,while zigzagging
+push,a,big,cylinder,hesitantly
+push,a,big,cylinder,while spinning
+push,a,big,cylinder,while zigzagging
+push,a,big,circle,hesitantly
+push,a,big,circle,while spinning
+push,a,big,circle,while zigzagging
+pull,a,yellow,cylinder,hesitantly
+pull,a,yellow,cylinder,while zigzagging
+pull,a,yellow,circle,hesitantly
+pull,a,yellow,circle,while zigzagging
+pull,a,green,square,hesitantly
+pull,a,green,square,while zigzagging
+pull,a,green,cylinder,hesitantly
+pull,a,green,cylinder,while zigzagging
+pull,a,green,circle,hesitantly
+pull,a,green,circle,while zigzagging
+pull,a,red,cylinder,hesitantly
+pull,a,red,cylinder,while zigzagging
+pull,a,red,circle,hesitantly
+pull,a,red,circle,while zigzagging
+pull,a,blue,square,hesitantly
+pull,a,blue,square,while zigzagging
+pull,a,blue,cylinder,hesitantly
+pull,a,blue,cylinder,while zigzagging
+pull,a,blue,circle,hesitantly
+pull,a,blue,circle,while zigzagging
+pull,a,small,square,hesitantly
+pull,a,small,square,while zigzagging
+pull,a,small,cylinder,hesitantly
+pull,a,small,cylinder,while zigzagging
+pull,a,small,circle,hesitantly
+pull,a,small,circle,while zigzagging
+pull,a,big,square,hesitantly
+pull,a,big,square,while zigzagging
+pull,a,big,cylinder,hesitantly
+pull,a,big,cylinder,while zigzagging
+pull,a,big,circle,hesitantly
+pull,a,big,circle,while zigzagging
+push,a,square,hesitantly
+push,a,square,while spinning
+push,a,square,while zigzagging
+push,a,cylinder,hesitantly
+push,a,cylinder,while spinning
+push,a,cylinder,while zigzagging
+push,a,circle,hesitantly
+push,a,circle,while spinning
+push,a,circle,while zigzagging
+pull,a,square,hesitantly
+pull,a,square,while zigzagging
+pull,a,cylinder,hesitantly
+pull,a,cylinder,while zigzagging
+pull,a,circle,hesitantly
+pull,a,circle,while zigzagging
+walk,to,a,yellow,small,cylinder
+walk,to,a,yellow,small,circle
+walk,to,a,yellow,big,cylinder
+walk,to,a,yellow,big,circle
+walk,to,a,green,small,square
+walk,to,a,green,small,cylinder
+walk,to,a,green,small,circle
+walk,to,a,green,big,square
+walk,to,a,green,big,cylinder
+walk,to,a,green,big,circle
+walk,to,a,red,small,cylinder
+walk,to,a,red,small,circle
+walk,to,a,red,big,cylinder
+walk,to,a,red,big,circle
+walk,to,a,blue,small,square
+walk,to,a,blue,small,cylinder
+walk,to,a,blue,small,circle
+walk,to,a,blue,big,square
+walk,to,a,blue,big,cylinder
+walk,to,a,blue,big,circle
+walk,to,a,yellow,cylinder
+walk,to,a,yellow,circle
+walk,to,a,green,square
+walk,to,a,green,cylinder
+walk,to,a,green,circle
+walk,to,a,red,cylinder
+walk,to,a,red,circle
+walk,to,a,blue,square
+walk,to,a,blue,cylinder
+walk,to,a,blue,circle
+walk,to,a,small,square
+walk,to,a,small,cylinder
+walk,to,a,small,circle
+walk,to,a,big,square
+walk,to,a,big,cylinder
+walk,to,a,big,circle
+walk,to,a,square
+walk,to,a,cylinder
+walk,to,a,circle
+push,a,yellow,small,cylinder
+push,a,yellow,small,circle
+push,a,yellow,big,cylinder
+push,a,yellow,big,circle
+push,a,green,small,square
+push,a,green,small,cylinder
+push,a,green,small,circle
+push,a,green,big,square
+push,a,green,big,cylinder
+push,a,green,big,circle
+push,a,red,small,cylinder
+push,a,red,small,circle
+push,a,red,big,cylinder
+push,a,red,big,circle
+push,a,blue,small,square
+push,a,blue,small,cylinder
+push,a,blue,small,circle
+push,a,blue,big,square
+push,a,blue,big,cylinder
+push,a,blue,big,circle
+pull,a,yellow,small,cylinder
+pull,a,yellow,small,circle
+pull,a,yellow,big,cylinder
+pull,a,yellow,big,circle
+pull,a,green,small,square
+pull,a,green,small,cylinder
+pull,a,green,small,circle
+pull,a,green,big,square
+pull,a,green,big,cylinder
+pull,a,green,big,circle
+pull,a,red,small,cylinder
+pull,a,red,small,circle
+pull,a,red,big,cylinder
+pull,a,red,big,circle
+pull,a,blue,small,square
+pull,a,blue,small,cylinder
+pull,a,blue,small,circle
+pull,a,blue,big,square
+pull,a,blue,big,cylinder
+pull,a,blue,big,circle
+push,a,yellow,cylinder
+push,a,yellow,circle
+push,a,green,square
+push,a,green,cylinder
+push,a,green,circle
+push,a,red,cylinder
+push,a,red,circle
+push,a,blue,square
+push,a,blue,cylinder
+push,a,blue,circle
+push,a,small,square
+push,a,small,cylinder
+push,a,small,circle
+push,a,big,square
+push,a,big,cylinder
+push,a,big,circle
+pull,a,yellow,cylinder
+pull,a,yellow,circle
+pull,a,green,square
+pull,a,green,cylinder
+pull,a,green,circle
+pull,a,red,cylinder
+pull,a,red,circle
+pull,a,blue,square
+pull,a,blue,cylinder
+pull,a,blue,circle
+pull,a,small,square
+pull,a,small,cylinder
+pull,a,small,circle
+pull,a,big,square
+pull,a,big,cylinder
+pull,a,big,circle
+push,a,square
+push,a,cylinder
+push,a,circle
+pull,a,square
+pull,a,cylinder
+pull,a,circle
+push,a,green,small,square,cautiously

@@ -1,0 +1,77 @@
+$ python main.py --num 1000
+Split   Comment Number of data
+A       test            #data: 19282
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:70-78: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:65-73: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+<block>:539:68-76: error: syntax error, unexpected <IDENTIFIER>, expecting ) or ;
+
+C       visual          #data: 37436
+D       situational_1   #data: 88642
+E       situational_2   #data: 16808
+F       contextual      #data: 11460
+G       adverb_1        #data: 112880
+H       adverb_2        #data: 38582
+B       visual_easier   #data: 18718
+Split   Acc     Correct Total   File name
+A       98.30   983     1000    data/compositional_splits/dataset.txt
+B       100.00  1000    1000    data/compositional_splits/dataset.txt
+C       100.00  1000    1000    data/compositional_splits/dataset.txt
+D       100.00  1000    1000    data/compositional_splits/dataset.txt
+E       100.00  1000    1000    data/compositional_splits/dataset.txt
+F       100.00  1000    1000    data/compositional_splits/dataset.txt
+G       100.00  1000    1000    data/compositional_splits/dataset.txt
+H       98.70   987     1000    data/compositional_splits/dataset.txt
+all     99.62   7970    8000    All

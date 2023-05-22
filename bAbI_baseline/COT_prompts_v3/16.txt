@@ -1,0 +1,86 @@
+Please read each example story and answer the question that follows.
+Question:
+Julius is a frog.
+Julius is gray.
+Lily is a swan.
+Brian is a lion.
+Bernhard is a swan.
+Brian is white.
+Greg is a rhino.
+Greg is gray.
+Lily is gray.
+What color is Bernhard?
+
+Answer: Bernhard is a swan. Lily is a swan and Lily is gray. Since Bernhard is a swan and Lily is a gray swan, Bernhard is inferred to be gray. So the answer is gray.
+
+Question:
+Bernhard is a lion.
+Brian is a rhino.
+Brian is gray.
+Greg is a swan.
+Lily is a frog.
+Julius is a frog.
+Julius is gray.
+Greg is white.
+Bernhard is white.
+What color is Lily?
+
+Answer: Lily is a frog. Julius is a frog and Julius is gray. Since Lily is a frog and Julius is a gray frog, Lily is inferred to be gray. So the answer is gray.
+
+Question:
+Lily is a lion.
+Brian is a frog.
+Julius is a frog.
+Julius is yellow.
+Brian is yellow.
+Lily is green.
+Bernhard is a frog.
+Bernhard is gray.
+Greg is a lion.
+What color is Greg?
+
+Answer: Greg is a lion. Lily is a lion and Lily is green. Since Greg is a lion and Lily is a green lion, Greg is inferred to be green. So the answer is green.
+
+Question:
+Bernhard is a rhino.
+Brian is a frog.
+Julius is a rhino.
+Brian is gray.
+Greg is a frog.
+Julius is white.
+Greg is gray.
+Lily is a swan.
+Lily is white.
+What color is Bernhard?
+
+Answer: Bernhard is a rhino. Julius is a rhino and Julius is gray. Since Bernhard is a rhino and Julius is a white rhino, Bernhard is inferred to be white. So the answer is white.
+
+Question:
+Brian is a rhino.
+Julius is a lion.
+Bernhard is a lion.
+Greg is a swan.
+Brian is gray.
+Greg is white.
+Lily is a rhino.
+Bernhard is yellow.
+Lily is gray.
+What color is Julius?
+
+Answer: Julius is a lion. Bernhard is a lion and Bernhard is yellow. Since Julius is a lion and Bernhard is a yellow lion, Julius is inferred to be yellow. So the answer is yellow.
+
+Question:
+Bernhard is a lion.
+Julius is a lion.
+Lily is a lion.
+Bernhard is green.
+Lily is green.
+Brian is a lion.
+Greg is a swan.
+Greg is gray.
+Julius is yellow.
+What color is Brian?
+
+Answer: Brian is a lion. Lily is a lion and Lily is green. Since Brian is a lion and Lily is a green lion, Brian is inferred to be green. So the answer is green.
+
+Question:

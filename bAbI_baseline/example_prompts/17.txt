@@ -1,0 +1,38 @@
+Please read each example story and answer the question that follows.
+Example:
+The red square is below the blue square.
+The blue square is below the pink rectangle.
+Is the red square below the pink rectangle?
+Answer: yes
+
+Example:
+The red sphere is below the yellow square.
+The red sphere is above the blue square.
+Is the yellow square above the blue square?
+Answer: yes
+
+Example:
+The red square is above the pink rectangle.
+The red square is to the right of the triangle.
+Is the triangle to the left of the pink rectangle?
+Answer: yes
+
+Example:
+The red sphere is to the right of the red square.
+The red square is above the blue square.
+Is the blue square to the right of the red sphere?
+Answer: no
+
+Example:
+The red sphere is to the right of the red square.
+The red square is above the blue square.
+Is the blue square above the red sphere?
+Answer: no
+
+Example:
+The blue square is to the right of the red sphere.
+The red sphere is to the right of the triangle.
+Is the blue square to the left of the triangle?
+Answer: no
+
+Example:

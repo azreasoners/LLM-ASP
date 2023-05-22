@@ -1,0 +1,68 @@
+Please read each example story and answer the question that follows.
+Example:
+Mary and Daniel travelled to the bathroom.
+John and Sandra went back to the bedroom.
+Daniel and John moved to the hallway.
+Daniel and John travelled to the office.
+Daniel and Sandra went back to the garden.
+Mary and Daniel went to the office.
+Where is Daniel?
+Answer: office
+
+Example:
+Daniel and Sandra went back to the kitchen.
+Daniel and John went back to the hallway.
+Daniel and John moved to the bathroom.
+Sandra and Mary travelled to the office.
+John and Mary travelled to the hallway.
+Sandra and Mary journeyed to the garden.
+Daniel and Sandra went back to the bedroom.
+Daniel and John went back to the kitchen.
+Sandra and John journeyed to the hallway.
+John and Sandra journeyed to the bathroom.
+Where is John?
+Answer: bathroom
+
+Example:
+Daniel and Sandra went to the hallway.
+John and Sandra went to the office.
+Mary and John went to the garden.
+Daniel and Mary moved to the office.
+Where is Mary?
+Answer: office
+
+Example:
+Daniel and John went back to the bedroom.
+Mary and Daniel moved to the office.
+Daniel and John went to the kitchen.
+Mary and John travelled to the garden.
+Where is Daniel?
+Answer: kitchen
+
+Example:
+Daniel and John went back to the bedroom.
+Mary and Daniel moved to the office.
+Daniel and John went to the kitchen.
+Mary and John travelled to the garden.
+John and Mary travelled to the hallway.
+Mary and John moved to the office.
+John and Mary went to the bedroom.
+Daniel and Mary travelled to the bathroom.
+Sandra and Mary travelled to the garden.
+Mary and John travelled to the kitchen.
+Where is Mary?
+Answer: kitchen
+
+Example:
+John and Mary moved to the bedroom.
+Daniel and John went to the kitchen.
+Daniel and Sandra went to the hallway.
+John and Daniel journeyed to the garden.
+Sandra and John journeyed to the kitchen.
+Mary and Daniel moved to the bathroom.
+Sandra and Mary travelled to the hallway.
+Mary and Sandra journeyed to the bathroom.
+Where is Mary?
+Answer: bathroom
+
+Example:

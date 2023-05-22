@@ -1,0 +1,56 @@
+Please read each example story and answer the question that follows.
+Example:
+Sumit is tired.
+Sumit went back to the bedroom.
+Why did sumit go to the bedroom?
+Answer: tired
+
+Example:
+Antoine is thirsty.
+Where will antoine go?
+Answer: kitchen
+
+Example:
+Yann is hungry.
+Yann journeyed to the kitchen.
+Yann took the apple there.
+Sumit is tired.
+Jason is tired.
+Jason moved to the bedroom.
+Sumit journeyed to the bedroom.
+Jason picked up the pajamas there.
+Antoine is hungry.
+Where will antoine go?
+Answer: kitchen
+
+Example:
+Antoine is bored.
+Sumit is bored.
+Antoine moved to the garden.
+Jason is bored.
+Jason went back to the garden.
+Yann is tired.
+Jason grabbed the football there.
+Why did jason get the football?
+Answer: bored
+
+Example:
+Antoine is thirsty.
+Sumit is tired.
+Yann is thirsty.
+Antoine went back to the kitchen.
+Antoine took the milk there.
+Jason is bored.
+Yann travelled to the kitchen.
+Sumit moved to the bedroom.
+Sumit took the pajamas there.
+Jason went to the garden.
+Why did jason go to the garden?
+Answer: bored
+
+Example:
+Jason is hungry.
+Where will jason go?
+Answer: kitchen
+
+Example:

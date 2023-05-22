@@ -1,0 +1,72 @@
+Please read each example story and answer the question that follows.
+Question:
+Daniel travelled to the bathroom.
+Then he went back to the bedroom.
+John journeyed to the office.
+Then he travelled to the bathroom.
+Daniel journeyed to the kitchen.
+Following that he went to the bedroom.
+Where is Daniel?
+
+Answer: Daniel went to the bathroom. Then Daniel went to the bedroom. Then Daniel went to the kitchen. Then Daniel went to the bedroom. The final location of Daniel is the bedroom. So the answer is bedroom.
+
+Question:
+Mary travelled to the garden.
+Following that she went back to the kitchen.
+John journeyed to the bathroom.
+Afterwards he moved to the garden.
+Sandra went back to the hallway.
+Following that she went to the bathroom.
+Sandra went to the kitchen.
+Afterwards she went to the hallway.
+Where is John?
+
+Answer: John went to the bathroom. Then John went to the garden. The final location of John is the garden. So the answer is garden.
+
+Question:
+Daniel moved to the office.
+Following that he journeyed to the hallway.
+John travelled to the office.
+Then he went back to the kitchen.
+Sandra went to the office.
+Following that she went to the hallway.
+Daniel travelled to the kitchen.
+Afterwards he moved to the office.
+Sandra journeyed to the office.
+Afterwards she moved to the hallway.
+Where is Daniel?
+
+Answer: Daniel went to the office. Then Daniel went to the hallway. Then Daniel went to the kitchen. Then Daniel went to the office. The final location of Daniel is the office. So the answer is office.
+
+Question:
+Sandra went back to the hallway.
+After that she travelled to the bathroom.
+Where is Sandra?
+
+Answer: Sandra went to the hallway. Then Sandra went to the bathroom. The final location of Sandra is the bathroom. So the answer is bathroom.
+
+Question:
+Mary travelled to the bedroom.
+Then she went back to the bathroom.
+Mary travelled to the hallway.
+Following that she went to the garden.
+Sandra went to the garden.
+After that she went to the kitchen.
+Mary journeyed to the kitchen.
+After that she moved to the bedroom.
+Mary moved to the office.
+Afterwards she journeyed to the garden.
+Where is Mary?
+
+Answer: Mary went to the bedroom. Then Mary went to the bathroom. Then Mary went to the hallway. Then Mary went to the garden. Then Mary went to the kitchen. Then Mary went to the bedroom. Then Mary went to the office. The Mary went to the garden. The final location of Mary is the garden. So the answer is garden.
+
+Question:
+Daniel travelled to the bathroom.
+Then he went back to the bedroom.
+John journeyed to the office.
+Then he travelled to the bathroom.
+Where is John?
+
+Answer: John went to the office. Then John went to the bathroom. The final location of John is the bathroom. So the answer is bathroom.
+
+Question:

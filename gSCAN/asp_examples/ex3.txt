@@ -1,0 +1,104 @@
+%*
+QUERY:
+    walk,to,a,yellow,small,cylinder,while spinning
+TARGET: 
+    turn left,turn left,turn left,turn left,turn right,walk
+COMMAND:
+    clingo gscan.txt action_ec.txt ex3.txt
+ANSWER SET:
+    happens(action(agent,turn_left),0)
+    happens(action(agent,turn_left),1)
+    happens(action(agent,turn_left),2)
+    happens(action(agent,turn_left),3)
+    happens(action(agent,turn_right),4)
+    happens(action(agent,walk),5)
+COMMENT:
+    -
+*%
+
+
+%********************
+* problem instance
+*********************%
+
+query(walk).
+queryDesc(yellow).
+queryDesc(small).
+queryDesc(cylinder).
+while(spinning).
+
+gridSize(6).
+pos(agent,(2,3)).
+dir(agent,east).
+
+pos(0,(3,3)).
+shape(0,cylinder).
+color(0,yellow).
+size(0,1).
+weight(0,light).
+
+pos(1,(5,3)).
+shape(1,cylinder).
+color(1,yellow).
+size(1,2).
+weight(1,light).
+
+pos(2,(5,6)).
+shape(2,square).
+color(2,green).
+size(2,4).
+weight(2,heavy).
+
+pos(3,(3,4)).
+shape(3,square).
+color(3,green).
+size(3,3).
+weight(3,heavy).
+
+pos(4,(6,4)).
+shape(4,circle).
+color(4,green).
+size(4,3).
+weight(4,heavy).
+
+pos(5,(2,4)).
+shape(5,circle).
+color(5,green).
+size(5,3).
+weight(5,heavy).
+
+pos(6,(1,4)).
+shape(6,cylinder).
+color(6,blue).
+size(6,3).
+weight(6,heavy).
+
+pos(7,(6,2)).
+shape(7,cylinder).
+color(7,blue).
+size(7,3).
+weight(7,heavy).
+
+pos(8,(2,6)).
+shape(8,circle).
+color(8,yellow).
+size(8,3).
+weight(8,heavy).
+
+pos(9,(2,2)).
+shape(9,circle).
+color(9,yellow).
+size(9,1).
+weight(9,light).
+
+pos(10,(2,5)).
+shape(10,square).
+color(10,yellow).
+size(10,2).
+weight(10,light).
+
+pos(11,(4,5)).
+shape(11,square).
+color(11,yellow).
+size(11,4).
+weight(11,heavy).

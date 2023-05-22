@@ -1,0 +1,36 @@
+% assume the 2nd queried object is at location (0,0)
+location(Q2, 0, 0) :- query(_, Q2).
+
+% extract answer relation R such that the offset (Ox,Oy) of R is in the same direction of (X,Y)
+answer(R) :- query(Q1, _), location(Q1, X, Y), offset(R, Ox, Oy),
+    Ox=-1: X<0; Ox=0: X=0; Ox=1: X>0;
+    Oy=-1: Y<0; Oy=0: Y=0; Oy=1: Y>0.
+
+% define edge
+edge(A, B) :- is_on(A, _, B).
+edge(A, B) :- edge(B, A).
+
+% every edge can be in the shortest path between 2 queried nodes
+{sp(A, B)} :- edge(A,B), A<B.
+sp(A, B) :- sp(B, A).
+
+% terminal nodes are connected with an aux node
+sp(A, aux) :- query(A, _).
+sp(B, aux) :- query(_, B).
+
+% [p] 2. Prediction must form simple path(s)
+% that is: the degree of nodes should be either 0 or 2
+:- edge(X,_), #count{Y: sp(X,Y)} = 1.
+:- edge(X,_), #count{Y: sp(X,Y)} >= 3.
+
+% [r] 3. Every 2 nodes in the prediction must be reachable
+reachable(X, Y) :- sp(X, Y).
+reachable(X, Y) :- reachable(X, Z), sp(Z, Y).
+:- sp(X, _), sp(Y, _), not reachable(X, Y).
+
+% [o] 4. Predicted path should contain least edges
+:~ sp(A,B), A<B. [1, A, B]
+
+r(A,B) :- sp(A, B), is_on(A, _, B).
+
+#show r/2.

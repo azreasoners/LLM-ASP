@@ -1,0 +1,62 @@
+Please read each example story and answer the question that follows.
+Question:
+The box of chocolates fits inside the chest.
+The box is bigger than the chest.
+The box is bigger than the suitcase.
+The suitcase fits inside the box.
+The container is bigger than the box of chocolates.
+Is the box bigger than the box of chocolates?
+
+Answer: Since the box of chocolates fits inside the chest, the chest is bigger than the box of chocolates. The box is bigger than the chest. Therefore, the box is bigger than the box of chocolates. So the answer is yes.
+
+Question:
+The suitcase is bigger than the box of chocolates.
+The container fits inside the chest.
+The chocolate fits inside the container.
+The box of chocolates fits inside the box.
+The chocolate fits inside the box.
+Does the chest fit in the chocolate?
+
+Answer: Since the container fits inside the chest, the chest is bigger than the container. Since the chocolate fits inside the container, the container is bigger than the chocolate. Therefore, the chest is bigger than the chocolate. So the chest does not fit in the chocolate. So the answer is no. 
+
+Question:
+The suitcase fits inside the chest.
+The chocolate fits inside the suitcase.
+The chest is bigger than the chocolate.
+The box is bigger than the box of chocolates.
+The suitcase fits inside the box.
+Does the chocolate fit in the chest?
+
+Answer: Since the chocolate fits inside the suitcase, the suitcase is bigger than the chocolate. Since the suitcase fits inside the chest, the chest is bigger than the suitcase. Therefore, the chocolate fits inside the chest. So the answer is yes.
+
+Question:
+The suitcase is bigger than the container.
+The container fits inside the box.
+The chest is bigger than the chocolate.
+The suitcase fits inside the box.
+The chest fits inside the box.
+Does the box fit in the chocolate?
+
+Answer: The chest is bigger than the chocolate. Since the box is bigger than the chest, the box is bigger than the chocolate. Therefore, the box does not fit in the chocolate. So the answer is no.
+
+Question:
+The chest fits inside the box.
+The container fits inside the suitcase.
+The container is bigger than the chest.
+The box fits inside the suitcase.
+The container is bigger than the box of chocolates.
+Does the chest fit in the suitcase?
+
+Answer: The box is bigger than the chest. Since the suitcase is bigger than the box, the suitcase is bigger than the chest. Therefore, the chest fits in the suitcase. So the answer is yes.
+
+Question:
+The chest fits inside the container.
+The chest is bigger than the box of chocolates.
+The chest is bigger than the box of chocolates.
+The chocolate fits inside the suitcase.
+The chest fits inside the container.
+Is the box of chocolates bigger than the container?
+
+Answer: The chest is bigger than the box of chocolates. Since the container is bigger than the chest, the container is bigger than the box of chocolates. Therefore, the box of chocolates is not bigger than the container. So the answer is no.
+
+Question:
