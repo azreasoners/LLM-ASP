@@ -1,5 +1,5 @@
 # GPT3-R
-This is the repository for the paper [Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text](https://aclanthology.org/2023.findings-acl.321.pdf) in Findings of ACL 2023.
+This is the repository for the paper [Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text](https://aclanthology.org/2023.findings-acl.321.pdf) in Findings of ACL 2023.  
 [Lab Page](https://azreasoners.github.io/ARG-webpage/)
 ## Installation
 ```
