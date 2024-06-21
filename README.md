@@ -5,7 +5,8 @@ This is the repository for the paper [Coupling Large Language Models with Logic 
 ```
 conda create --name gpt3-r -c conda-forge python=3.11
 conda activate gpt3-r
-conda install -c conda-forge openai clingo=5.6 tqdm
+conda install -c conda-forge clingo=5.6 tqdm
+pip install openai==0.22
 ```
 
 ## How to run
