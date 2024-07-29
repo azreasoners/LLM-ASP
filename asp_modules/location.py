@@ -45,6 +45,6 @@ location(A, Xa, Ya) :-
 
 location(B, Xb, Yb) :-
     location(A, Xa, Ya), nums(Xb), nums(Yb),
-    is_on(A, Kind, B), offset(Kind, Dx, Dy),
+    is(A, Kind, B), offset(Kind, Dx, Dy),
     Xa-Xb=Dx, Ya-Yb=Dy.
 '''
