@@ -1,6 +1,6 @@
 # GPT3-R
 This is the repository for the paper [Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text](https://aclanthology.org/2023.findings-acl.321.pdf) in Findings of ACL 2023.  
-[Lab Page](https://azreasoners.github.io/ARG-webpage/)
+[Lab Page](https://azreasoners.github.io/)
 ## Installation
 ```
 conda create --name gpt3-r -c conda-forge python=3.11
